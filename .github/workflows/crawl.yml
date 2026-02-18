@@ -1,0 +1,37 @@
+name: Nightly Site Crawl
+
+on:
+  schedule:
+    # 2:00 AM Central Time (UTC-6 standard, UTC-5 daylight)
+    # Using 8:00 AM UTC to hit ~2AM CT safely
+    - cron: '0 8 * * *'
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to commit crawl-data.json back to repo
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Run crawler
+        run: python crawler/crawl.py
+
+      - name: Commit crawl results
+        run: |
+          git config user.name "LEX Site Crawler"
+          git config user.email "crawler@lexairconditioning.com"
+          git add public/crawl-data.json
+          git diff --staged --quiet || git commit -m "chore: nightly crawl $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
