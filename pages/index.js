@@ -203,7 +203,29 @@ export default function Dashboard() {
   const [filterDepth, setFilterDepth] = useState("all");
   const [selectedPage, setSelectedPage] = useState(null);
   const [sortBy, setSortBy] = useState("depth");
+  const [crawling, setCrawling] = useState(false);
+  const [crawlMsg, setCrawlMsg] = useState(null);
   const maxDepth = summary.max_depth || 0;
+
+  async function runCrawl() {
+    if (crawling) return;
+    setCrawling(true);
+    setCrawlMsg(null);
+    try {
+      const res = await fetch("/api/crawl", { method: "POST" });
+      const data = await res.json();
+      if (data.success) {
+        setCrawlMsg("Crawl complete! Reloading...");
+        setTimeout(() => window.location.reload(), 1500);
+      } else {
+        setCrawlMsg("Crawl failed: " + (data.error || "unknown error"));
+      }
+    } catch (err) {
+      setCrawlMsg("Crawl failed: " + err.message);
+    } finally {
+      setCrawling(false);
+    }
+  }
 
   const filtered = useMemo(() => {
     let result = pages;
@@ -231,7 +253,28 @@ export default function Dashboard() {
               </button>
             ))}
           </div>
-          <div style={{ marginLeft: "auto", fontSize: 11, color: "#475569", fontFamily: "monospace" }}>Last crawl: {formatDate(summary.crawled_at)}</div>
+          <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 12 }}>
+            {crawlMsg && <span style={{ fontSize: 11, color: crawlMsg.includes("failed") ? "#ef4444" : "#10b981", fontFamily: "monospace" }}>{crawlMsg}</span>}
+            <button
+              onClick={runCrawl}
+              disabled={crawling}
+              style={{
+                background: crawling ? "#1e2d45" : "rgba(249,115,22,0.15)",
+                border: "1px solid #f97316",
+                color: "#f97316",
+                borderRadius: 7,
+                padding: "6px 14px",
+                fontSize: 12,
+                cursor: crawling ? "not-allowed" : "pointer",
+                fontFamily: "monospace",
+                opacity: crawling ? 0.6 : 1,
+                transition: "all 0.15s",
+              }}
+            >
+              {crawling ? "Crawling..." : "Run Crawl"}
+            </button>
+            <span style={{ fontSize: 11, color: "#475569", fontFamily: "monospace" }}>Last crawl: {formatDate(summary.crawled_at)}</span>
+          </div>
         </div>
 
         {/* Stats */}
