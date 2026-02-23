@@ -215,8 +215,8 @@ export default function Dashboard() {
       const res = await fetch("/api/crawl", { method: "POST" });
       const data = await res.json();
       if (data.success) {
-        setCrawlMsg("Crawl complete! Reloading...");
-        setTimeout(() => window.location.reload(), 1500);
+        setCrawlMsg("Crawl triggered! It runs in GitHub Actions — data will update in a few minutes.");
+
       } else {
         setCrawlMsg("Crawl failed: " + (data.error || "unknown error"));
       }

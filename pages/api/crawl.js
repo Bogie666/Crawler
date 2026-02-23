@@ -1,37 +1,37 @@
-import { spawn } from "child_process";
-import path from "path";
-
-export default function handler(req, res) {
+export default async function handler(req, res) {
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const crawlScript = path.join(process.cwd(), "crawler", "crawl.py");
-  const proc = spawn("python3", [crawlScript], {
-    cwd: process.cwd(),
-    env: { ...process.env },
-  });
+  const token = process.env.GITHUB_TOKEN;
+  if (!token) {
+    return res.status(500).json({ success: false, error: "GITHUB_TOKEN not configured" });
+  }
 
-  let stdout = "";
-  let stderr = "";
+  try {
+    const response = await fetch(
+      "https://api.github.com/repos/Bogie666/Crawler/actions/workflows/crawl.yml/dispatches",
+      {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${token}`,
+          Accept: "application/vnd.github+json",
+          "X-GitHub-Api-Version": "2022-11-28",
+        },
+        body: JSON.stringify({ ref: "main" }),
+      }
+    );
 
-  proc.stdout.on("data", (data) => {
-    stdout += data.toString();
-  });
-
-  proc.stderr.on("data", (data) => {
-    stderr += data.toString();
-  });
-
-  proc.on("close", (code) => {
-    if (code === 0) {
-      res.status(200).json({ success: true, output: stdout });
-    } else {
-      res.status(500).json({ success: false, output: stdout, error: stderr });
+    if (response.status === 204) {
+      return res.status(200).json({ success: true, message: "Crawl workflow triggered" });
     }
-  });
 
-  proc.on("error", (err) => {
-    res.status(500).json({ success: false, error: err.message });
-  });
+    const data = await response.json().catch(() => ({}));
+    return res.status(response.status).json({
+      success: false,
+      error: data.message || `GitHub API returned ${response.status}`,
+    });
+  } catch (err) {
+    return res.status(500).json({ success: false, error: err.message });
+  }
 }
