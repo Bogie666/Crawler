@@ -208,7 +208,7 @@ export default function Dashboard() {
 
   const fetchData = () => {
     setLoading(true);
-    fetch(\`/crawl-data.json?t=\${Date.now()}\`)
+    fetch(`/crawl-data.json?t=${Date.now()}`)
       .then(r => r.json())
       .then(data => { setCrawlData(data); setLoading(false); })
       .catch(() => setLoading(false));
@@ -302,4 +302,4 @@ export default function Dashboard() {
           </>
         )}
       </div>
-      {selectedPage && <PageDetail page={selectedPage} onClose={()=>
+      {selectedPage && <PageDetail page={selectedPage} onClose={()=>set
