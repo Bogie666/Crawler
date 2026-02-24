@@ -301,5 +301,8 @@ export default function Dashboard() {
             {filtered.length===0 && <div style={{ padding:48, textAlign:"center", color:"#475569", fontSize:14 }}>No pages match.</div>}
           </>
         )}
-      </div>
-      {selectedPage && <PageDetail page={selectedPage} onClose={()=>set
+           </div>
+      {selectedPage && <PageDetail page={selectedPage} onClose={()=>setSelectedPage(null)} />}
+    </>
+  );
+}
