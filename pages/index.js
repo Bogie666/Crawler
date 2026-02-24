@@ -208,9 +208,10 @@ export default function Dashboard() {
   const [crawling, setCrawling] = useState(false);
   const [crawlMsg, setCrawlMsg] = useState(null);
 
+  // Hits API route — bypasses Vercel CDN cache
   const fetchData = () => {
     setLoading(true);
-    fetch(`/crawl-data.json?t=${Date.now()}`)
+    fetch("/api/crawl-data")
       .then(r => r.json())
       .then(data => { setCrawlData(data); setLoading(false); })
       .catch(() => setLoading(false));
@@ -226,12 +227,12 @@ export default function Dashboard() {
       const res = await fetch("/api/crawl", { method: "POST" });
       const data = await res.json();
       if (data.success) {
-        setCrawlMsg("Crawl triggered! It runs in GitHub Actions — data will update in a few minutes.");
+        setCrawlMsg("✓ Crawl triggered! Data updates in ~10 min.");
       } else {
-        setCrawlMsg("Crawl failed: " + (data.error || "unknown error"));
+        setCrawlMsg("✗ " + (data.error || "Unknown error"));
       }
     } catch (err) {
-      setCrawlMsg("Crawl failed: " + err.message);
+      setCrawlMsg("✗ " + err.message);
     } finally {
       setCrawling(false);
     }
@@ -271,27 +272,20 @@ export default function Dashboard() {
             ))}
           </div>
           <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 12 }}>
-            {crawlMsg && <span style={{ fontSize: 11, color: crawlMsg.includes("failed") ? "#ef4444" : "#10b981", fontFamily: "monospace" }}>{crawlMsg}</span>}
+            {crawlMsg && (
+              <span style={{ fontSize: 11, color: crawlMsg.startsWith("✓") ? "#10b981" : "#ef4444", fontFamily: "monospace" }}>
+                {crawlMsg}
+              </span>
+            )}
             <button onClick={fetchData} disabled={loading} style={{ background: loading ? "transparent" : "rgba(59,130,246,0.1)", border: "1px solid #1e2d45", color: loading ? "#475569" : "#3b82f6", borderRadius: 7, padding: "5px 12px", fontSize: 11, cursor: loading ? "default" : "pointer", fontFamily: "monospace" }}>
               {loading ? "⟳ Loading…" : "⟳ Refresh"}
             </button>
             <button
               onClick={runCrawl}
               disabled={crawling}
-              style={{
-                background: crawling ? "#1e2d45" : "rgba(249,115,22,0.15)",
-                border: "1px solid #f97316",
-                color: "#f97316",
-                borderRadius: 7,
-                padding: "6px 14px",
-                fontSize: 12,
-                cursor: crawling ? "not-allowed" : "pointer",
-                fontFamily: "monospace",
-                opacity: crawling ? 0.6 : 1,
-                transition: "all 0.15s",
-              }}
+              style={{ background: crawling ? "#1e2d45" : "rgba(249,115,22,0.15)", border: "1px solid #f97316", color: "#f97316", borderRadius: 7, padding: "6px 14px", fontSize: 12, cursor: crawling ? "not-allowed" : "pointer", fontFamily: "monospace", opacity: crawling ? 0.6 : 1, transition: "all 0.15s" }}
             >
-              {crawling ? "Crawling..." : "Run Crawl"}
+              {crawling ? "⟳ Running…" : "▶ Run Crawl"}
             </button>
             <span style={{ fontSize: 11, color: "#475569", fontFamily: "monospace" }}>Last crawl: {formatDate(summary.crawled_at)}</span>
           </div>
@@ -343,7 +337,7 @@ export default function Dashboard() {
             {filtered.length===0 && <div style={{ padding:48, textAlign:"center", color:"#475569", fontSize:14 }}>No pages match.</div>}
           </>
         )}
-           </div>
+      </div>
       {selectedPage && <PageDetail page={selectedPage} onClose={()=>setSelectedPage(null)} />}
     </>
   );
