@@ -205,6 +205,8 @@ export default function Dashboard() {
   const [filterDepth, setFilterDepth] = useState("all");
   const [selectedPage, setSelectedPage] = useState(null);
   const [sortBy, setSortBy] = useState("depth");
+  const [crawling, setCrawling] = useState(false);
+  const [crawlMsg, setCrawlMsg] = useState(null);
 
   const fetchData = () => {
     setLoading(true);
@@ -215,6 +217,25 @@ export default function Dashboard() {
   };
 
   useEffect(() => { fetchData(); }, []);
+
+  async function runCrawl() {
+    if (crawling) return;
+    setCrawling(true);
+    setCrawlMsg(null);
+    try {
+      const res = await fetch("/api/crawl", { method: "POST" });
+      const data = await res.json();
+      if (data.success) {
+        setCrawlMsg("Crawl triggered! It runs in GitHub Actions — data will update in a few minutes.");
+      } else {
+        setCrawlMsg("Crawl failed: " + (data.error || "unknown error"));
+      }
+    } catch (err) {
+      setCrawlMsg("Crawl failed: " + err.message);
+    } finally {
+      setCrawling(false);
+    }
+  }
 
   const { summary, pages } = crawlData;
   const maxDepth = summary.max_depth || 0;
@@ -249,10 +270,31 @@ export default function Dashboard() {
               </button>
             ))}
           </div>
-          <button onClick={fetchData} disabled={loading} style={{ marginLeft: "auto", background: loading ? "transparent" : "rgba(59,130,246,0.1)", border: "1px solid #1e2d45", color: loading ? "#475569" : "#3b82f6", borderRadius: 7, padding: "5px 12px", fontSize: 11, cursor: loading ? "default" : "pointer", fontFamily: "monospace" }}>
-            {loading ? "⟳ Loading…" : "⟳ Refresh"}
-          </button>
-          <div style={{ fontSize: 11, color: "#475569", fontFamily: "monospace" }}>Last crawl: {formatDate(summary.crawled_at)}</div>
+          <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 12 }}>
+            {crawlMsg && <span style={{ fontSize: 11, color: crawlMsg.includes("failed") ? "#ef4444" : "#10b981", fontFamily: "monospace" }}>{crawlMsg}</span>}
+            <button onClick={fetchData} disabled={loading} style={{ background: loading ? "transparent" : "rgba(59,130,246,0.1)", border: "1px solid #1e2d45", color: loading ? "#475569" : "#3b82f6", borderRadius: 7, padding: "5px 12px", fontSize: 11, cursor: loading ? "default" : "pointer", fontFamily: "monospace" }}>
+              {loading ? "⟳ Loading…" : "⟳ Refresh"}
+            </button>
+            <button
+              onClick={runCrawl}
+              disabled={crawling}
+              style={{
+                background: crawling ? "#1e2d45" : "rgba(249,115,22,0.15)",
+                border: "1px solid #f97316",
+                color: "#f97316",
+                borderRadius: 7,
+                padding: "6px 14px",
+                fontSize: 12,
+                cursor: crawling ? "not-allowed" : "pointer",
+                fontFamily: "monospace",
+                opacity: crawling ? 0.6 : 1,
+                transition: "all 0.15s",
+              }}
+            >
+              {crawling ? "Crawling..." : "Run Crawl"}
+            </button>
+            <span style={{ fontSize: 11, color: "#475569", fontFamily: "monospace" }}>Last crawl: {formatDate(summary.crawled_at)}</span>
+          </div>
         </div>
 
         {/* Loading bar */}
