@@ -1,6 +1,5 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import Head from "next/head";
-import crawlData from "../public/crawl-data.json";
 
 const ISSUE_META = {
   broken:        { label: "Broken (404)",        color: "#ef4444", bg: "rgba(239,68,68,0.12)" },
@@ -195,37 +194,30 @@ function PageDetail({ page, onClose }) {
   );
 }
 
+const EMPTY = { summary: { total_pages: 0, max_depth: 0, pages_with_issues: 0, issue_counts: {}, crawled_at: null, crawl_duration_seconds: 0, total_issues: 0 }, pages: [] };
+
 export default function Dashboard() {
-  const { summary, pages } = crawlData;
+  const [crawlData, setCrawlData] = useState(EMPTY);
+  const [loading, setLoading] = useState(true);
   const [view, setView] = useState("map");
   const [search, setSearch] = useState("");
   const [filterIssue, setFilterIssue] = useState("all");
   const [filterDepth, setFilterDepth] = useState("all");
   const [selectedPage, setSelectedPage] = useState(null);
   const [sortBy, setSortBy] = useState("depth");
-  const [crawling, setCrawling] = useState(false);
-  const [crawlMsg, setCrawlMsg] = useState(null);
+
+  const fetchData = () => {
+    setLoading(true);
+    fetch(\`/crawl-data.json?t=\${Date.now()}\`)
+      .then(r => r.json())
+      .then(data => { setCrawlData(data); setLoading(false); })
+      .catch(() => setLoading(false));
+  };
+
+  useEffect(() => { fetchData(); }, []);
+
+  const { summary, pages } = crawlData;
   const maxDepth = summary.max_depth || 0;
-
-  async function runCrawl() {
-    if (crawling) return;
-    setCrawling(true);
-    setCrawlMsg(null);
-    try {
-      const res = await fetch("/api/crawl", { method: "POST" });
-      const data = await res.json();
-      if (data.success) {
-        setCrawlMsg("Crawl triggered! It runs in GitHub Actions — data will update in a few minutes.");
-
-      } else {
-        setCrawlMsg("Crawl failed: " + (data.error || "unknown error"));
-      }
-    } catch (err) {
-      setCrawlMsg("Crawl failed: " + err.message);
-    } finally {
-      setCrawling(false);
-    }
-  }
 
   const filtered = useMemo(() => {
     let result = pages;
@@ -239,7 +231,11 @@ export default function Dashboard() {
 
   return (
     <>
-      <Head><title>LEX Site Map</title><meta name="robots" content="noindex" /></Head>
+      <Head>
+        <title>LEX Site Map</title>
+        <meta name="robots" content="noindex" />
+        <style>{`@keyframes shimmer { 0%{background-position:200%} 100%{background-position:-200%} }`}</style>
+      </Head>
       <div style={{ background: "#0a0e1a", minHeight: "100vh", color: "#f1f5f9", fontFamily: "'Segoe UI', system-ui, sans-serif", marginRight: selectedPage ? 360 : 0, transition: "margin-right 0.2s" }}>
 
         {/* Header */}
@@ -253,29 +249,14 @@ export default function Dashboard() {
               </button>
             ))}
           </div>
-          <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 12 }}>
-            {crawlMsg && <span style={{ fontSize: 11, color: crawlMsg.includes("failed") ? "#ef4444" : "#10b981", fontFamily: "monospace" }}>{crawlMsg}</span>}
-            <button
-              onClick={runCrawl}
-              disabled={crawling}
-              style={{
-                background: crawling ? "#1e2d45" : "rgba(249,115,22,0.15)",
-                border: "1px solid #f97316",
-                color: "#f97316",
-                borderRadius: 7,
-                padding: "6px 14px",
-                fontSize: 12,
-                cursor: crawling ? "not-allowed" : "pointer",
-                fontFamily: "monospace",
-                opacity: crawling ? 0.6 : 1,
-                transition: "all 0.15s",
-              }}
-            >
-              {crawling ? "Crawling..." : "Run Crawl"}
-            </button>
-            <span style={{ fontSize: 11, color: "#475569", fontFamily: "monospace" }}>Last crawl: {formatDate(summary.crawled_at)}</span>
-          </div>
+          <button onClick={fetchData} disabled={loading} style={{ marginLeft: "auto", background: loading ? "transparent" : "rgba(59,130,246,0.1)", border: "1px solid #1e2d45", color: loading ? "#475569" : "#3b82f6", borderRadius: 7, padding: "5px 12px", fontSize: 11, cursor: loading ? "default" : "pointer", fontFamily: "monospace" }}>
+            {loading ? "⟳ Loading…" : "⟳ Refresh"}
+          </button>
+          <div style={{ fontSize: 11, color: "#475569", fontFamily: "monospace" }}>Last crawl: {formatDate(summary.crawled_at)}</div>
         </div>
+
+        {/* Loading bar */}
+        {loading && <div style={{ height: 2, background: "linear-gradient(90deg, #3b82f6, #8b5cf6, #3b82f6)", backgroundSize: "200%", animation: "shimmer 1.2s infinite" }} />}
 
         {/* Stats */}
         <div style={{ padding: "16px 24px", display: "flex", gap: 12, flexWrap: "wrap", borderBottom: "1px solid #1e2d45" }}>
@@ -321,7 +302,4 @@ export default function Dashboard() {
           </>
         )}
       </div>
-      {selectedPage && <PageDetail page={selectedPage} onClose={()=>setSelectedPage(null)} />}
-    </>
-  );
-}
+      {selectedPage && <PageDetail page={selectedPage} onClose={()=>
