@@ -85,6 +85,9 @@ def crawl():
             schema_types = []
             has_schema_markup = False
             h1_count = 0
+            h1_text = ""
+            word_count = 0
+            outlinks = 0
 
             if soup:
                 title_tag = soup.find("title")
@@ -98,7 +101,15 @@ def crawl():
 
                 schema_types = get_schema_types(soup)
                 has_schema_markup = len(schema_types) > 0
-                h1_count = len(soup.find_all("h1"))
+                h1_tags = soup.find_all("h1")
+                h1_count = len(h1_tags)
+                h1_text = h1_tags[0].get_text(strip=True) if h1_tags else ""
+
+                body = soup.find("body")
+                if body:
+                    for tag in body.find_all(["script", "style", "noscript"]):
+                        tag.decompose()
+                    word_count = len(body.get_text(separator=" ", strip=True).split())
 
                 for a in soup.find_all("a", href=True):
                     href = a["href"].strip()
@@ -106,6 +117,7 @@ def crawl():
                         continue
                     abs_url = normalize_url(urljoin(normalized, href))
                     if is_internal(abs_url):
+                        outlinks += 1
                         inbound_links[abs_url].add(normalized)
                         if abs_url not in visited and abs_url not in queued:
                             queue.append((abs_url, normalized, get_depth(abs_url)))
@@ -132,7 +144,8 @@ def crawl():
                 "status_code": status_code, "title": title,
                 "meta_description": meta_description, "canonical": canonical,
                 "has_schema": has_schema_markup, "schema_types": schema_types,
-                "h1_count": h1_count, "child_count": 0, "inbound_count": 0,
+                "h1_count": h1_count, "h1": h1_text, "word_count": word_count,
+                "outlinks": outlinks, "child_count": 0, "inbound_count": 0,
                 "issues": issues, "was_redirected": was_redirected,
                 "redirected_to": final_url if was_redirected else None,
             }
@@ -144,7 +157,8 @@ def crawl():
                 "url": normalized, "parent": parent, "depth": depth,
                 "status_code": 0, "title": "", "meta_description": "",
                 "canonical": "", "has_schema": False, "schema_types": [],
-                "h1_count": 0, "child_count": 0, "inbound_count": 0,
+                "h1_count": 0, "h1": "", "word_count": 0,
+                "outlinks": 0, "child_count": 0, "inbound_count": 0,
                 "issues": [{"type": "request_error", "message": str(e)}],
                 "was_redirected": False, "redirected_to": None,
             }
