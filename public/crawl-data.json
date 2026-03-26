@@ -1,18 +1,19 @@
 {
   "summary": {
-    "crawled_at": "2026-03-25T09:02:39.509311+00:00",
+    "crawled_at": "2026-03-26T09:09:06.677356+00:00",
     "base_url": "https://lexairconditioning.com",
-    "total_pages": 189,
-    "crawl_duration_seconds": 271.9,
+    "total_pages": 206,
+    "crawl_duration_seconds": 294.3,
     "max_depth": 5,
     "issue_counts": {
-      "no_schema": 166,
-      "missing_meta": 18,
-      "missing_h1": 4,
+      "no_schema": 177,
+      "missing_meta": 20,
+      "missing_h1": 5,
+      "broken": 5,
       "deep_page": 10
     },
-    "total_issues": 198,
-    "pages_with_issues": 170,
+    "total_issues": 217,
+    "pages_with_issues": 187,
     "crawl_errors": []
   },
   "pages": [
@@ -28,7 +29,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Dallas-Fort Worth HVAC, Plumbing & Electrical Services",
-      "word_count": 2576,
+      "word_count": 2550,
       "outlinks": 41,
       "child_count": 34,
       "inbound_count": 0,
@@ -54,10 +55,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Air Conditioning Servicesin Dallas-Fort Worth",
-      "word_count": 3769,
+      "word_count": 3743,
       "outlinks": 26,
       "child_count": 7,
-      "inbound_count": 33,
+      "inbound_count": 34,
       "issues": [
         {
           "type": "no_schema",
@@ -67,16 +68,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/air-conditioning",
       "inbound_links": [
-        "https://lexairconditioning.com/rockwall-ac-installation",
-        "https://lexairconditioning.com/keller-tx",
-        "https://lexairconditioning.com/locations/irving",
+        "https://lexairconditioning.com/flower-mound-tx",
+        "https://lexairconditioning.com/locations/the-colony",
+        "https://lexairconditioning.com/",
         "https://lexairconditioning.com/addison-tx",
         "https://lexairconditioning.com/little-elm-tx",
-        "https://lexairconditioning.com/dallas-heater-repair",
-        "https://lexairconditioning.com/locations/rockwall",
-        "https://lexairconditioning.com/mckinney-tx",
-        "https://lexairconditioning.com/richardson-heater-repair",
-        "https://lexairconditioning.com/"
+        "https://lexairconditioning.com/grand-prairie-tx",
+        "https://lexairconditioning.com/rowlett-tx",
+        "https://lexairconditioning.com/highland-village-tx",
+        "https://lexairconditioning.com/fort-worth-tx",
+        "https://lexairconditioning.com/locations/flower-mound"
       ]
     },
     {
@@ -91,10 +92,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Plumbing Servicesin Dallas-Fort Worth",
-      "word_count": 4495,
+      "word_count": 4469,
       "outlinks": 37,
       "child_count": 7,
-      "inbound_count": 23,
+      "inbound_count": 26,
       "issues": [
         {
           "type": "no_schema",
@@ -104,16 +105,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/plumbing-service",
       "inbound_links": [
-        "https://lexairconditioning.com/richardson-ac-repair",
-        "https://lexairconditioning.com/locations/irving",
-        "https://lexairconditioning.com/addison-tx",
-        "https://lexairconditioning.com/mckinney-tx",
-        "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us",
-        "https://lexairconditioning.com/plumbing-service/water-heater-services",
-        "https://lexairconditioning.com/locations/lewisville",
+        "https://lexairconditioning.com/flower-mound-tx",
         "https://lexairconditioning.com/locations/the-colony",
-        "https://lexairconditioning.com/locations/garland"
+        "https://lexairconditioning.com/",
+        "https://lexairconditioning.com/addison-tx",
+        "https://lexairconditioning.com/richardson-ac-repair",
+        "https://lexairconditioning.com/richardson-plumber",
+        "https://lexairconditioning.com/contact-us",
+        "https://lexairconditioning.com/rowlett-tx",
+        "https://lexairconditioning.com/plumbing-service/water-heater-services",
+        "https://lexairconditioning.com/fort-worth-tx"
       ]
     },
     {
@@ -133,24 +134,24 @@
       ],
       "h1_count": 1,
       "h1": "Electrical Servicesin Dallas-Fort Worth",
-      "word_count": 5882,
+      "word_count": 5856,
       "outlinks": 42,
       "child_count": 7,
-      "inbound_count": 21,
+      "inbound_count": 23,
       "issues": [],
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services",
       "inbound_links": [
-        "https://lexairconditioning.com/richardson-ac-repair",
-        "https://lexairconditioning.com/electric-services/surge-protection",
+        "https://lexairconditioning.com/irving-electrician",
+        "https://lexairconditioning.com/flower-mound-tx",
         "https://lexairconditioning.com/richardson-electrician",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
+        "https://lexairconditioning.com/locations/the-colony",
         "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us",
+        "https://lexairconditioning.com/richardson-ac-repair",
+        "https://lexairconditioning.com/allen-electrician",
         "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
-        "https://lexairconditioning.com/electrical-services/breaker-box-replacement",
-        "https://lexairconditioning.com/locations/lewisville",
-        "https://lexairconditioning.com/locations/the-colony"
+        "https://lexairconditioning.com/contact-us",
+        "https://lexairconditioning.com/electrical-services"
       ]
     },
     {
@@ -165,7 +166,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Indoor Air Qualityin Dallas-Fort Worth",
-      "word_count": 4312,
+      "word_count": 4286,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 7,
@@ -178,13 +179,13 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/indoor-air-quality",
       "inbound_links": [
-        "https://lexairconditioning.com/about-us",
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
         "https://lexairconditioning.com/air-conditioning",
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
         "https://lexairconditioning.com/other-hvac-services/home-automation-zoning",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
+        "https://lexairconditioning.com/",
         "https://lexairconditioning.com/other-hvac-services/commercial-hvac",
-        "https://lexairconditioning.com/"
+        "https://lexairconditioning.com/about-us"
       ]
     },
     {
@@ -199,10 +200,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "One Membership.Total Peace of Mind.",
-      "word_count": 3108,
+      "word_count": 3082,
       "outlinks": 0,
       "child_count": 0,
-      "inbound_count": 24,
+      "inbound_count": 27,
       "issues": [
         {
           "type": "no_schema",
@@ -212,16 +213,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/cool-club",
       "inbound_links": [
-        "https://lexairconditioning.com/richardson-ac-repair",
-        "https://lexairconditioning.com/air-conditioning",
-        "https://lexairconditioning.com/richardson-ac-installation",
-        "https://lexairconditioning.com/service-area/carrollton-tx",
-        "https://lexairconditioning.com/air-conditioning/ac-tune-up",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/locations/richardson",
+        "https://lexairconditioning.com/rockwall-tx",
+        "https://lexairconditioning.com/ac-installation",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
         "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us",
-        "https://lexairconditioning.com/ac-services/ac-tune-up",
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
-        "https://lexairconditioning.com/air-conditioning/ac-installation"
+        "https://lexairconditioning.com/richardson-ac-repair",
+        "https://lexairconditioning.com/other-hvac-services/commercial-hvac",
+        "https://lexairconditioning.com/contact-us"
       ]
     },
     {
@@ -236,10 +237,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "HVAC & Home Service Financing inDallas-Fort Worth",
-      "word_count": 2828,
+      "word_count": 2802,
       "outlinks": 13,
       "child_count": 1,
-      "inbound_count": 5,
+      "inbound_count": 8,
       "issues": [
         {
           "type": "no_schema",
@@ -249,11 +250,14 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/about-us/financing",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
-        "https://lexairconditioning.com/ac-installation",
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
         "https://lexairconditioning.com/air-conditioning/ac-installation",
-        "https://lexairconditioning.com/"
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
+        "https://lexairconditioning.com/ac-installation",
+        "https://lexairconditioning.com/",
+        "https://lexairconditioning.com/contact",
+        "https://lexairconditioning.com/contact-us"
       ]
     },
     {
@@ -268,7 +272,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AboutLEXAir Conditioning, Heating, Plumbing & Electrical",
-      "word_count": 2485,
+      "word_count": 2459,
       "outlinks": 27,
       "child_count": 4,
       "inbound_count": 1,
@@ -296,10 +300,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Repairin Dallas-Fort Worth",
-      "word_count": 5834,
+      "word_count": 5808,
       "outlinks": 32,
       "child_count": 1,
-      "inbound_count": 34,
+      "inbound_count": 38,
       "issues": [
         {
           "type": "no_schema",
@@ -309,16 +313,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/air-conditioning/ac-repair",
       "inbound_links": [
+        "https://lexairconditioning.com/allen-tx",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/plano-ac-repair",
+        "https://lexairconditioning.com/locations/richardson",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/ac-installation",
+        "https://lexairconditioning.com/",
         "https://lexairconditioning.com/richardson-ac-repair",
-        "https://lexairconditioning.com/keller-tx",
-        "https://lexairconditioning.com/little-elm-tx",
-        "https://lexairconditioning.com/air-conditioning",
-        "https://lexairconditioning.com/denton-tx",
-        "https://lexairconditioning.com/air-conditioning/ductless-mini-split-ac",
-        "https://lexairconditioning.com/richardson-ac-installation",
-        "https://lexairconditioning.com/dallas-heater-repair",
-        "https://lexairconditioning.com/air-conditioning/ac-tune-up",
-        "https://lexairconditioning.com/plano-ac-repair"
+        "https://lexairconditioning.com/other-hvac-services/commercial-hvac",
+        "https://lexairconditioning.com/contact-us"
       ]
     },
     {
@@ -335,7 +339,7 @@
       ],
       "h1_count": 1,
       "h1": "Furnace Repairin Dallas-Fort Worth",
-      "word_count": 3742,
+      "word_count": 3716,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 10,
@@ -345,14 +349,14 @@
       "inbound_links": [
         "https://lexairconditioning.com/locations/mesquite",
         "https://lexairconditioning.com/fort-worth-tx",
-        "https://lexairconditioning.com/ac-system-replacement",
-        "https://lexairconditioning.com/locations/allen",
         "https://lexairconditioning.com/allen-tx",
         "https://lexairconditioning.com/denton-tx",
         "https://lexairconditioning.com/arlington-tx",
         "https://lexairconditioning.com/plano-ac-repair",
+        "https://lexairconditioning.com/",
         "https://lexairconditioning.com/richardson-heater-repair",
-        "https://lexairconditioning.com/"
+        "https://lexairconditioning.com/locations/allen",
+        "https://lexairconditioning.com/ac-system-replacement"
       ]
     },
     {
@@ -367,10 +371,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Plano's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 3037,
+      "word_count": 3011,
       "outlinks": 10,
       "child_count": 6,
-      "inbound_count": 53,
+      "inbound_count": 61,
       "issues": [
         {
           "type": "no_schema",
@@ -380,16 +384,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/plano-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/plano-heater-repair",
-        "https://lexairconditioning.com/electric-services/surge-protection",
-        "https://lexairconditioning.com/air-conditioning",
-        "https://lexairconditioning.com/plano-electrician",
+        "https://lexairconditioning.com/irving-electrician",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
         "https://lexairconditioning.com/plumbing-service/repiping",
-        "https://lexairconditioning.com/air-conditioning/ductless-mini-split-ac",
-        "https://lexairconditioning.com/locations/plano",
-        "https://lexairconditioning.com/systems/thermostats",
-        "https://lexairconditioning.com/air-conditioning/ac-tune-up",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector"
+        "https://lexairconditioning.com/electric-services/backup-generator-installation",
+        "https://lexairconditioning.com/ac-installation",
+        "https://lexairconditioning.com/plumbing-service/drain-cleaning",
+        "https://lexairconditioning.com/",
+        "https://lexairconditioning.com/plano-ac-installation"
       ]
     },
     {
@@ -404,10 +408,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Frisco's Trusted HVAC, Plumbing & Electrical Experts",
-      "word_count": 2602,
+      "word_count": 2576,
       "outlinks": 26,
       "child_count": 5,
-      "inbound_count": 46,
+      "inbound_count": 53,
       "issues": [
         {
           "type": "no_schema",
@@ -417,16 +421,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/frisco-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/surge-protection",
-        "https://lexairconditioning.com/air-conditioning",
+        "https://lexairconditioning.com/irving-electrician",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
         "https://lexairconditioning.com/plumbing-service/repiping",
-        "https://lexairconditioning.com/systems/thermostats",
-        "https://lexairconditioning.com/air-conditioning/ac-tune-up",
-        "https://lexairconditioning.com/mckinney-tx",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
+        "https://lexairconditioning.com/electric-services/backup-generator-installation",
+        "https://lexairconditioning.com/ac-installation",
         "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us",
-        "https://lexairconditioning.com/electric-services/emergency-electrician-dallas"
+        "https://lexairconditioning.com/allen-electrician",
+        "https://lexairconditioning.com/other-hvac-services/commercial-hvac"
       ]
     },
     {
@@ -441,7 +445,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Carrollton's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 2745,
+      "word_count": 2719,
       "outlinks": 10,
       "child_count": 5,
       "inbound_count": 2,
@@ -470,10 +474,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Richardson's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 2354,
+      "word_count": 2328,
       "outlinks": 13,
       "child_count": 5,
-      "inbound_count": 54,
+      "inbound_count": 61,
       "issues": [
         {
           "type": "no_schema",
@@ -483,16 +487,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/richardson-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/richardson-ac-repair",
-        "https://lexairconditioning.com/electric-services/surge-protection",
-        "https://lexairconditioning.com/air-conditioning",
-        "https://lexairconditioning.com/plumbing-service/repiping",
+        "https://lexairconditioning.com/irving-electrician",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/faq",
         "https://lexairconditioning.com/richardson-electrician",
-        "https://lexairconditioning.com/richardson-ac-installation",
-        "https://lexairconditioning.com/systems/thermostats",
-        "https://lexairconditioning.com/air-conditioning/ac-tune-up",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
-        "https://lexairconditioning.com/richardson-heater-repair"
+        "https://lexairconditioning.com/locations/richardson",
+        "https://lexairconditioning.com/plumbing-service/repiping",
+        "https://lexairconditioning.com/electric-services/backup-generator-installation",
+        "https://lexairconditioning.com/ac-installation",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
+        "https://lexairconditioning.com/"
       ]
     },
     {
@@ -507,10 +511,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Dallas AC RepairFast, Reliable Service",
-      "word_count": 2884,
+      "word_count": 2858,
       "outlinks": 0,
       "child_count": 0,
-      "inbound_count": 8,
+      "inbound_count": 11,
       "issues": [
         {
           "type": "no_schema",
@@ -520,14 +524,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/dallas-ac-repair",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
         "https://lexairconditioning.com/air-conditioning",
-        "https://lexairconditioning.com/",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
         "https://lexairconditioning.com/indoor-air-quality/humidifiers",
+        "https://lexairconditioning.com/air-conditioning/ac-repair",
         "https://lexairconditioning.com/service-area",
-        "https://lexairconditioning.com/dallas-tx",
+        "https://lexairconditioning.com/",
         "https://lexairconditioning.com/other-hvac-services/commercial-hvac",
-        "https://lexairconditioning.com/air-conditioning/ac-repair"
+        "https://lexairconditioning.com/contact",
+        "https://lexairconditioning.com/contact-us"
       ]
     },
     {
@@ -542,10 +548,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Slab Leak Repair and Detectionin Dallas-Fort Worth",
-      "word_count": 3689,
+      "word_count": 3663,
       "outlinks": 15,
       "child_count": 0,
-      "inbound_count": 2,
+      "inbound_count": 3,
       "issues": [
         {
           "type": "no_schema",
@@ -556,6 +562,7 @@
       "redirected_to": "https://www.lexairconditioning.com/plumbing-service/slab-leak-repair-and-detection",
       "inbound_links": [
         "https://lexairconditioning.com/rockwall-tx",
+        "https://lexairconditioning.com/faq",
         "https://lexairconditioning.com/"
       ]
     },
@@ -571,10 +578,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "EV Charger Installationin Dallas-Fort Worth",
-      "word_count": 3696,
+      "word_count": 3670,
       "outlinks": 8,
       "child_count": 4,
-      "inbound_count": 25,
+      "inbound_count": 26,
       "issues": [
         {
           "type": "no_schema",
@@ -584,16 +591,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services/ev-charging-station-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/locations/irving",
-        "https://lexairconditioning.com/addison-tx",
-        "https://lexairconditioning.com/denton-tx",
-        "https://lexairconditioning.com/mckinney-tx",
-        "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/locations/lewisville",
-        "https://lexairconditioning.com/locations/the-colony",
+        "https://lexairconditioning.com/flower-mound-tx",
+        "https://lexairconditioning.com/allen-tx",
+        "https://lexairconditioning.com/faq",
         "https://lexairconditioning.com/rockwall-tx",
-        "https://lexairconditioning.com/locations/garland",
-        "https://lexairconditioning.com/rowlett-tx"
+        "https://lexairconditioning.com/locations/the-colony",
+        "https://lexairconditioning.com/",
+        "https://lexairconditioning.com/addison-tx",
+        "https://lexairconditioning.com/locations/allen",
+        "https://lexairconditioning.com/rowlett-tx",
+        "https://lexairconditioning.com/fort-worth-tx"
       ]
     },
     {
@@ -608,10 +615,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Spring AC Tune-Ups in DFW |Beat the Summer Rush",
-      "word_count": 2877,
+      "word_count": 2851,
       "outlinks": 29,
       "child_count": 1,
-      "inbound_count": 45,
+      "inbound_count": 46,
       "issues": [
         {
           "type": "no_schema",
@@ -621,16 +628,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/air-conditioning/ac-tune-ups",
       "inbound_links": [
-        "https://lexairconditioning.com/richardson-ac-repair",
-        "https://lexairconditioning.com/keller-tx",
-        "https://lexairconditioning.com/locations/irving",
+        "https://lexairconditioning.com/coppell-tx",
+        "https://lexairconditioning.com/flower-mound-tx",
+        "https://lexairconditioning.com/allen-tx",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/ac-installation",
+        "https://lexairconditioning.com/locations/the-colony",
+        "https://lexairconditioning.com/",
         "https://lexairconditioning.com/addison-tx",
-        "https://lexairconditioning.com/little-elm-tx",
-        "https://lexairconditioning.com/air-conditioning",
-        "https://lexairconditioning.com/denton-tx",
-        "https://lexairconditioning.com/dallas-heater-repair",
-        "https://lexairconditioning.com/mckinney-tx",
-        "https://lexairconditioning.com/"
+        "https://lexairconditioning.com/richardson-ac-repair",
+        "https://lexairconditioning.com/little-elm-tx"
       ]
     },
     {
@@ -645,10 +652,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Addison's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 3536,
+      "word_count": 3510,
       "outlinks": 9,
       "child_count": 1,
-      "inbound_count": 23,
+      "inbound_count": 26,
       "issues": [
         {
           "type": "no_schema",
@@ -658,16 +665,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/addison-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/surge-protection",
+        "https://lexairconditioning.com/irving-electrician",
         "https://lexairconditioning.com/plumbing-service/repiping",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
         "https://lexairconditioning.com/",
+        "https://lexairconditioning.com/allen-electrician",
         "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
-        "https://lexairconditioning.com/ac-system-replacement",
+        "https://lexairconditioning.com/heating/heat-pumps",
+        "https://lexairconditioning.com/electrical-services",
         "https://lexairconditioning.com/plumbing-service/water-heater-services",
-        "https://lexairconditioning.com/electrical-services/breaker-box-replacement",
-        "https://lexairconditioning.com/heating/heater-installation",
-        "https://lexairconditioning.com/electric-services/breaker-box-replacement"
+        "https://lexairconditioning.com/other-hvac-services/home-automation-zoning",
+        "https://lexairconditioning.com/plumbing-service/tankless-water-heater-services"
       ]
     },
     {
@@ -682,7 +689,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "HVAC, Plumbing & Electrical Services inArlington, TX",
-      "word_count": 2290,
+      "word_count": 2264,
       "outlinks": 18,
       "child_count": 6,
       "inbound_count": 4,
@@ -695,9 +702,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/arlington-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/about-us",
         "https://lexairconditioning.com/fort-worth-tx",
         "https://lexairconditioning.com/about-us/financing",
+        "https://lexairconditioning.com/about-us",
         "https://lexairconditioning.com/"
       ]
     },
@@ -713,10 +720,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Carrollton's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 2745,
+      "word_count": 2719,
       "outlinks": 10,
       "child_count": 0,
-      "inbound_count": 47,
+      "inbound_count": 54,
       "issues": [
         {
           "type": "no_schema",
@@ -726,16 +733,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/carrollton-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/locations/irving",
-        "https://lexairconditioning.com/electric-services/surge-protection",
-        "https://lexairconditioning.com/air-conditioning",
+        "https://lexairconditioning.com/irving-electrician",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
         "https://lexairconditioning.com/plumbing-service/repiping",
-        "https://lexairconditioning.com/systems/thermostats",
-        "https://lexairconditioning.com/air-conditioning/ac-tune-up",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
+        "https://lexairconditioning.com/electric-services/backup-generator-installation",
+        "https://lexairconditioning.com/ac-installation",
         "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us",
-        "https://lexairconditioning.com/electric-services/emergency-electrician-dallas"
+        "https://lexairconditioning.com/allen-electrician",
+        "https://lexairconditioning.com/other-hvac-services/commercial-hvac"
       ]
     },
     {
@@ -750,10 +757,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Coppell's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 3662,
+      "word_count": 3636,
       "outlinks": 10,
       "child_count": 5,
-      "inbound_count": 27,
+      "inbound_count": 30,
       "issues": [
         {
           "type": "no_schema",
@@ -763,16 +770,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/coppell-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/surge-protection",
-        "https://lexairconditioning.com/air-conditioning",
+        "https://lexairconditioning.com/irving-electrician",
         "https://lexairconditioning.com/plumbing-service/repiping",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
         "https://lexairconditioning.com/",
+        "https://lexairconditioning.com/allen-electrician",
         "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
-        "https://lexairconditioning.com/ac-system-replacement",
+        "https://lexairconditioning.com/heating/heat-pumps",
+        "https://lexairconditioning.com/systems/ductless-mini-split",
+        "https://lexairconditioning.com/electrical-services",
         "https://lexairconditioning.com/plumbing-service/water-heater-services",
-        "https://lexairconditioning.com/electrical-services/breaker-box-replacement",
-        "https://lexairconditioning.com/heating/heater-installation"
+        "https://lexairconditioning.com/air-conditioning/ductless-mini-split-ac"
       ]
     },
     {
@@ -787,10 +794,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Dallas's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 3899,
+      "word_count": 3873,
       "outlinks": 10,
       "child_count": 3,
-      "inbound_count": 38,
+      "inbound_count": 42,
       "issues": [
         {
           "type": "no_schema",
@@ -800,16 +807,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/dallas-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/locations/irving",
-        "https://lexairconditioning.com/electric-services/surge-protection",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
         "https://lexairconditioning.com/plumbing-service/repiping",
-        "https://lexairconditioning.com/air-conditioning/ac-tune-up",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
+        "https://lexairconditioning.com/electric-services/backup-generator-installation",
+        "https://lexairconditioning.com/ac-installation",
         "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us",
         "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
-        "https://lexairconditioning.com/ac-services/ac-tune-up",
-        "https://lexairconditioning.com/electric-services/generator-installation"
+        "https://lexairconditioning.com/reviews",
+        "https://lexairconditioning.com/heating/heat-pumps",
+        "https://lexairconditioning.com/systems/ductless-mini-split",
+        "https://lexairconditioning.com/air-conditioning/ac-tune-ups"
       ]
     },
     {
@@ -824,10 +831,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Flower Mound's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 3422,
+      "word_count": 3396,
       "outlinks": 11,
       "child_count": 0,
-      "inbound_count": 34,
+      "inbound_count": 41,
       "issues": [
         {
           "type": "no_schema",
@@ -837,16 +844,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/flower-mound-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/surge-protection",
-        "https://lexairconditioning.com/air-conditioning",
+        "https://lexairconditioning.com/irving-electrician",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
         "https://lexairconditioning.com/plumbing-service/repiping",
-        "https://lexairconditioning.com/air-conditioning/ductless-mini-split-ac",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
+        "https://lexairconditioning.com/ac-installation",
         "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us",
-        "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
-        "https://lexairconditioning.com/ac-system-replacement",
-        "https://lexairconditioning.com/plumbing-service/water-heater-services"
+        "https://lexairconditioning.com/allen-electrician",
+        "https://lexairconditioning.com/other-hvac-services/commercial-hvac",
+        "https://lexairconditioning.com/electric-services/emergency-electrician-dallas"
       ]
     },
     {
@@ -861,10 +868,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "HVAC, Plumbing & Electricalin Fort Worth, TX",
-      "word_count": 3025,
+      "word_count": 2999,
       "outlinks": 22,
       "child_count": 1,
-      "inbound_count": 14,
+      "inbound_count": 17,
       "issues": [
         {
           "type": "no_schema",
@@ -874,16 +881,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/fort-worth-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/about-us",
-        "https://lexairconditioning.com/ac-services/ac-tune-up",
-        "https://lexairconditioning.com/air-conditioning/ac-tune-ups",
-        "https://lexairconditioning.com/ac-installation",
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
         "https://lexairconditioning.com/air-conditioning",
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
+        "https://lexairconditioning.com/hvac-maintenance",
+        "https://lexairconditioning.com/ac-services/ac-tune-up",
         "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
+        "https://lexairconditioning.com/ac-installation",
         "https://lexairconditioning.com/service-area",
-        "https://lexairconditioning.com/hvac-maintenance"
+        "https://lexairconditioning.com/"
       ]
     },
     {
@@ -898,10 +905,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Garland's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 2325,
+      "word_count": 2299,
       "outlinks": 12,
       "child_count": 5,
-      "inbound_count": 30,
+      "inbound_count": 36,
       "issues": [
         {
           "type": "no_schema",
@@ -911,16 +918,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/garland-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/surge-protection",
-        "https://lexairconditioning.com/air-conditioning",
+        "https://lexairconditioning.com/irving-electrician",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/faq",
         "https://lexairconditioning.com/plumbing-service/repiping",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
+        "https://lexairconditioning.com/ac-installation",
         "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us",
+        "https://lexairconditioning.com/allen-electrician",
+        "https://lexairconditioning.com/other-hvac-services/commercial-hvac",
         "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
-        "https://lexairconditioning.com/ac-system-replacement",
-        "https://lexairconditioning.com/plumbing-service/water-heater-services",
-        "https://lexairconditioning.com/electrical-services/breaker-box-replacement"
+        "https://lexairconditioning.com/contact-us"
       ]
     },
     {
@@ -935,7 +942,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Grapevine's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 3621,
+      "word_count": 3595,
       "outlinks": 9,
       "child_count": 0,
       "inbound_count": 3,
@@ -948,8 +955,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/grapevine-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/service-area",
         "https://lexairconditioning.com/air-conditioning",
+        "https://lexairconditioning.com/service-area",
         "https://lexairconditioning.com/"
       ]
     },
@@ -965,10 +972,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Irving's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 2314,
+      "word_count": 2288,
       "outlinks": 12,
       "child_count": 1,
-      "inbound_count": 35,
+      "inbound_count": 41,
       "issues": [
         {
           "type": "no_schema",
@@ -978,16 +985,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/irving-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/surge-protection",
-        "https://lexairconditioning.com/air-conditioning",
+        "https://lexairconditioning.com/irving-electrician",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
         "https://lexairconditioning.com/plumbing-service/repiping",
-        "https://lexairconditioning.com/air-conditioning/ductless-mini-split-ac",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
+        "https://lexairconditioning.com/ac-installation",
         "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us",
-        "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
-        "https://lexairconditioning.com/ac-system-replacement",
-        "https://lexairconditioning.com/plumbing-service/water-heater-services"
+        "https://lexairconditioning.com/allen-electrician",
+        "https://lexairconditioning.com/other-hvac-services/commercial-hvac",
+        "https://lexairconditioning.com/electric-services/emergency-electrician-dallas"
       ]
     },
     {
@@ -1002,10 +1009,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Lewisville's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 3860,
+      "word_count": 3834,
       "outlinks": 9,
       "child_count": 0,
-      "inbound_count": 35,
+      "inbound_count": 42,
       "issues": [
         {
           "type": "no_schema",
@@ -1015,16 +1022,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/lewisville-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/surge-protection",
-        "https://lexairconditioning.com/air-conditioning",
+        "https://lexairconditioning.com/irving-electrician",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
         "https://lexairconditioning.com/plumbing-service/repiping",
-        "https://lexairconditioning.com/air-conditioning/ductless-mini-split-ac",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
+        "https://lexairconditioning.com/ac-installation",
         "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us",
-        "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
-        "https://lexairconditioning.com/ac-system-replacement",
-        "https://lexairconditioning.com/plumbing-service/water-heater-services"
+        "https://lexairconditioning.com/allen-electrician",
+        "https://lexairconditioning.com/other-hvac-services/commercial-hvac",
+        "https://lexairconditioning.com/electric-services/emergency-electrician-dallas"
       ]
     },
     {
@@ -1039,10 +1046,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "McKinney's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 2318,
+      "word_count": 2292,
       "outlinks": 12,
       "child_count": 0,
-      "inbound_count": 46,
+      "inbound_count": 53,
       "issues": [
         {
           "type": "no_schema",
@@ -1052,16 +1059,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/mckinney-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/surge-protection",
-        "https://lexairconditioning.com/air-conditioning",
+        "https://lexairconditioning.com/irving-electrician",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
         "https://lexairconditioning.com/plumbing-service/repiping",
-        "https://lexairconditioning.com/systems/thermostats",
-        "https://lexairconditioning.com/air-conditioning/ac-tune-up",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
+        "https://lexairconditioning.com/electric-services/backup-generator-installation",
+        "https://lexairconditioning.com/ac-installation",
         "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us",
-        "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
-        "https://lexairconditioning.com/ac-services/ac-tune-up"
+        "https://lexairconditioning.com/allen-electrician",
+        "https://lexairconditioning.com/other-hvac-services/commercial-hvac"
       ]
     },
     {
@@ -1076,7 +1083,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Rockwall's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 3573,
+      "word_count": 3547,
       "outlinks": 11,
       "child_count": 3,
       "inbound_count": 5,
@@ -1089,11 +1096,11 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/rockwall-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/rockwall-ac-installation",
-        "https://lexairconditioning.com/ac-installation",
         "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/ac-installation",
+        "https://lexairconditioning.com/",
         "https://lexairconditioning.com/locations/rockwall",
-        "https://lexairconditioning.com/"
+        "https://lexairconditioning.com/rockwall-ac-installation"
       ]
     },
     {
@@ -1108,7 +1115,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Southlake's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 3723,
+      "word_count": 3697,
       "outlinks": 10,
       "child_count": 4,
       "inbound_count": 4,
@@ -1139,10 +1146,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "The Colony's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 3664,
+      "word_count": 3638,
       "outlinks": 9,
       "child_count": 0,
-      "inbound_count": 33,
+      "inbound_count": 40,
       "issues": [
         {
           "type": "no_schema",
@@ -1152,16 +1159,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/the-colony-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/surge-protection",
-        "https://lexairconditioning.com/air-conditioning",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
         "https://lexairconditioning.com/plumbing-service/repiping",
-        "https://lexairconditioning.com/air-conditioning/ductless-mini-split-ac",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
+        "https://lexairconditioning.com/electric-services/backup-generator-installation",
+        "https://lexairconditioning.com/ac-installation",
         "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us",
+        "https://lexairconditioning.com/other-hvac-services/commercial-hvac",
         "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
-        "https://lexairconditioning.com/electric-services/generator-installation",
-        "https://lexairconditioning.com/ac-system-replacement"
+        "https://lexairconditioning.com/contact-us"
       ]
     },
     {
@@ -1176,10 +1183,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Service Areas",
-      "word_count": 2245,
+      "word_count": 2219,
       "outlinks": 26,
       "child_count": 4,
-      "inbound_count": 24,
+      "inbound_count": 28,
       "issues": [
         {
           "type": "no_schema",
@@ -1189,16 +1196,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/service-area",
       "inbound_links": [
-        "https://lexairconditioning.com/keller-tx",
-        "https://lexairconditioning.com/little-elm-tx",
-        "https://lexairconditioning.com/air-conditioning/ac-tune-up",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
+        "https://lexairconditioning.com/ac-installation",
         "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us",
-        "https://lexairconditioning.com/ac-services/ac-tune-up",
-        "https://lexairconditioning.com/lucas-tx",
+        "https://lexairconditioning.com/other-hvac-services/commercial-hvac",
+        "https://lexairconditioning.com/contact-us",
+        "https://lexairconditioning.com/little-elm-tx",
         "https://lexairconditioning.com/reviews",
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
-        "https://lexairconditioning.com/parker-tx"
+        "https://lexairconditioning.com/grand-prairie-tx",
+        "https://lexairconditioning.com/air-conditioning/ac-tune-ups"
       ]
     },
     {
@@ -1213,7 +1220,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Schedule YourService",
-      "word_count": 2115,
+      "word_count": 2089,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 18,
@@ -1226,16 +1233,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/schedule-service",
       "inbound_links": [
-        "https://lexairconditioning.com/richardson-ac-repair",
-        "https://lexairconditioning.com/rockwall-ac-installation",
-        "https://lexairconditioning.com/ac-services/ac-tune-up",
-        "https://lexairconditioning.com/richardson-plumber",
         "https://lexairconditioning.com/flower-mound-tx",
-        "https://lexairconditioning.com/air-conditioning/ac-tune-ups",
-        "https://lexairconditioning.com/reviews",
-        "https://lexairconditioning.com/ac-installation",
+        "https://lexairconditioning.com/hvac-maintenance",
+        "https://lexairconditioning.com/ac-services/ac-tune-up",
         "https://lexairconditioning.com/air-conditioning/ac-installation",
-        "https://lexairconditioning.com/richardson-electrician"
+        "https://lexairconditioning.com/locations/flower-mound",
+        "https://lexairconditioning.com/richardson-electrician",
+        "https://lexairconditioning.com/locations/richardson",
+        "https://lexairconditioning.com/ac-installation",
+        "https://lexairconditioning.com/",
+        "https://lexairconditioning.com/richardson-ac-repair"
       ]
     },
     {
@@ -1255,24 +1262,24 @@
       ],
       "h1_count": 1,
       "h1": "AC Installation DFWNew AC Unit Cost & Financing",
-      "word_count": 3224,
+      "word_count": 3198,
       "outlinks": 28,
       "child_count": 1,
-      "inbound_count": 33,
+      "inbound_count": 34,
       "issues": [],
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/air-conditioning/ac-installation",
       "inbound_links": [
+        "https://lexairconditioning.com/allen-tx",
+        "https://lexairconditioning.com/locations/richardson",
         "https://lexairconditioning.com/richardson-ac-repair",
-        "https://lexairconditioning.com/rockwall-ac-installation",
-        "https://lexairconditioning.com/keller-tx",
+        "https://lexairconditioning.com/other-hvac-services/commercial-hvac",
         "https://lexairconditioning.com/little-elm-tx",
-        "https://lexairconditioning.com/air-conditioning",
-        "https://lexairconditioning.com/denton-tx",
-        "https://lexairconditioning.com/air-conditioning/ductless-mini-split-ac",
-        "https://lexairconditioning.com/richardson-ac-installation",
-        "https://lexairconditioning.com/dallas-heater-repair",
-        "https://lexairconditioning.com/air-conditioning/ac-tune-up"
+        "https://lexairconditioning.com/locations/allen",
+        "https://lexairconditioning.com/grand-prairie-tx",
+        "https://lexairconditioning.com/air-conditioning/ac-tune-ups",
+        "https://lexairconditioning.com/systems/ductless-mini-split",
+        "https://lexairconditioning.com/highland-village-tx"
       ]
     },
     {
@@ -1287,7 +1294,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC System Replacementin Dallas-Fort Worth",
-      "word_count": 3441,
+      "word_count": 3415,
       "outlinks": 19,
       "child_count": 0,
       "inbound_count": 6,
@@ -1300,12 +1307,12 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/ac-system-replacement",
       "inbound_links": [
-        "https://lexairconditioning.com/rockwall-ac-installation",
         "https://lexairconditioning.com/fort-worth-tx",
-        "https://lexairconditioning.com/ac-installation",
         "https://lexairconditioning.com/air-conditioning",
         "https://lexairconditioning.com/air-conditioning/ac-installation",
-        "https://lexairconditioning.com/locations/rockwall"
+        "https://lexairconditioning.com/ac-installation",
+        "https://lexairconditioning.com/locations/rockwall",
+        "https://lexairconditioning.com/rockwall-ac-installation"
       ]
     },
     {
@@ -1320,10 +1327,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Ductless Mini-Split ACin Dallas-Fort Worth",
-      "word_count": 3562,
+      "word_count": 3536,
       "outlinks": 16,
       "child_count": 1,
-      "inbound_count": 18,
+      "inbound_count": 19,
       "issues": [
         {
           "type": "no_schema",
@@ -1333,16 +1340,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/air-conditioning/ductless-mini-split-ac",
       "inbound_links": [
-        "https://lexairconditioning.com/rockwall-ac-installation",
-        "https://lexairconditioning.com/grand-prairie-tx",
-        "https://lexairconditioning.com/keller-tx",
-        "https://lexairconditioning.com/lucas-tx",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/ac-installation",
         "https://lexairconditioning.com/plano-ac-installation",
-        "https://lexairconditioning.com/colleyville-tx",
         "https://lexairconditioning.com/little-elm-tx",
+        "https://lexairconditioning.com/grand-prairie-tx",
+        "https://lexairconditioning.com/highland-village-tx",
         "https://lexairconditioning.com/farmers-branch-tx",
-        "https://lexairconditioning.com/air-conditioning",
-        "https://lexairconditioning.com/parker-tx"
+        "https://lexairconditioning.com/lucas-tx",
+        "https://lexairconditioning.com/dallas-heater-repair",
+        "https://lexairconditioning.com/locations/plano"
       ]
     },
     {
@@ -1357,10 +1364,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Smart Thermostat Installationin Dallas-Fort Worth",
-      "word_count": 3595,
+      "word_count": 3569,
       "outlinks": 10,
       "child_count": 4,
-      "inbound_count": 15,
+      "inbound_count": 16,
       "issues": [
         {
           "type": "no_schema",
@@ -1370,16 +1377,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/thermostats",
       "inbound_links": [
-        "https://lexairconditioning.com/rockwall-ac-installation",
-        "https://lexairconditioning.com/grand-prairie-tx",
-        "https://lexairconditioning.com/keller-tx",
-        "https://lexairconditioning.com/lucas-tx",
         "https://lexairconditioning.com/colleyville-tx",
-        "https://lexairconditioning.com/commercial-boiler-service",
-        "https://lexairconditioning.com/farmers-branch-tx",
-        "https://lexairconditioning.com/little-elm-tx",
         "https://lexairconditioning.com/air-conditioning",
-        "https://lexairconditioning.com/parker-tx"
+        "https://lexairconditioning.com/farmers-branch-tx",
+        "https://lexairconditioning.com/parker-tx",
+        "https://lexairconditioning.com/lucas-tx",
+        "https://lexairconditioning.com/highland-park-air-conditioning-and-heating",
+        "https://lexairconditioning.com/dallas-heater-repair",
+        "https://lexairconditioning.com/prosper-tx",
+        "https://lexairconditioning.com/little-elm-tx",
+        "https://lexairconditioning.com/locations/rockwall"
       ]
     },
     {
@@ -1396,7 +1403,7 @@
       ],
       "h1_count": 1,
       "h1": "Heating Repairin Dallas-Fort Worth",
-      "word_count": 3577,
+      "word_count": 3551,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 24,
@@ -1404,16 +1411,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/heating",
       "inbound_links": [
-        "https://lexairconditioning.com/richardson-ac-repair",
-        "https://lexairconditioning.com/locations/irving",
-        "https://lexairconditioning.com/addison-tx",
-        "https://lexairconditioning.com/air-conditioning",
+        "https://lexairconditioning.com/flower-mound-tx",
         "https://lexairconditioning.com/plano-ac-repair",
-        "https://lexairconditioning.com/mckinney-tx",
-        "https://lexairconditioning.com/richardson-heater-repair",
-        "https://lexairconditioning.com/about-us",
-        "https://lexairconditioning.com/commercial-boiler-service",
-        "https://lexairconditioning.com/locations/lewisville"
+        "https://lexairconditioning.com/locations/the-colony",
+        "https://lexairconditioning.com/addison-tx",
+        "https://lexairconditioning.com/richardson-ac-repair",
+        "https://lexairconditioning.com/other-hvac-services/commercial-hvac",
+        "https://lexairconditioning.com/rowlett-tx",
+        "https://lexairconditioning.com/locations/flower-mound",
+        "https://lexairconditioning.com/grapevine-tx",
+        "https://lexairconditioning.com/southlake-tx"
       ]
     },
     {
@@ -1428,10 +1435,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Heat Pump Installation & Servicein Dallas-Fort Worth",
-      "word_count": 4035,
+      "word_count": 4009,
       "outlinks": 15,
       "child_count": 0,
-      "inbound_count": 4,
+      "inbound_count": 5,
       "issues": [
         {
           "type": "missing_meta",
@@ -1445,9 +1452,10 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/heating/heat-pumps",
       "inbound_links": [
-        "https://lexairconditioning.com/richardson-heater-repair",
         "https://lexairconditioning.com/fort-worth-tx",
         "https://lexairconditioning.com/air-conditioning",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/richardson-heater-repair",
         "https://lexairconditioning.com/commercial-boiler-service"
       ]
     },
@@ -1463,10 +1471,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "HVAC, Plumbing & Electrical Services inAllen, TX",
-      "word_count": 2287,
+      "word_count": 2261,
       "outlinks": 18,
       "child_count": 0,
-      "inbound_count": 42,
+      "inbound_count": 46,
       "issues": [
         {
           "type": "no_schema",
@@ -1476,16 +1484,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/allen-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/surge-protection",
-        "https://lexairconditioning.com/air-conditioning",
+        "https://lexairconditioning.com/irving-electrician",
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
         "https://lexairconditioning.com/plumbing-service/repiping",
-        "https://lexairconditioning.com/systems/thermostats",
-        "https://lexairconditioning.com/air-conditioning/ac-tune-up",
-        "https://lexairconditioning.com/mckinney-tx",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
-        "https://lexairconditioning.com/about-us",
+        "https://lexairconditioning.com/electric-services/backup-generator-installation",
+        "https://lexairconditioning.com/ac-installation",
+        "https://lexairconditioning.com/allen-electrician",
         "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
-        "https://lexairconditioning.com/ac-services/ac-tune-up"
+        "https://lexairconditioning.com/reviews",
+        "https://lexairconditioning.com/heating/heat-pumps",
+        "https://lexairconditioning.com/systems/ductless-mini-split"
       ]
     },
     {
@@ -1500,10 +1508,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Drain Cleaning & Repairin Dallas-Fort Worth",
-      "word_count": 3339,
+      "word_count": 3313,
       "outlinks": 1,
       "child_count": 0,
-      "inbound_count": 24,
+      "inbound_count": 25,
       "issues": [
         {
           "type": "no_schema",
@@ -1513,15 +1521,15 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/plumbing-service/drain-service",
       "inbound_links": [
-        "https://lexairconditioning.com/addison-tx",
-        "https://lexairconditioning.com/denton-tx",
-        "https://lexairconditioning.com/service-area/carrollton-tx",
-        "https://lexairconditioning.com/plano-tx",
-        "https://lexairconditioning.com/locations/lewisville",
-        "https://lexairconditioning.com/locations/the-colony",
+        "https://lexairconditioning.com/flower-mound-tx",
+        "https://lexairconditioning.com/allen-tx",
+        "https://lexairconditioning.com/faq",
         "https://lexairconditioning.com/rockwall-tx",
-        "https://lexairconditioning.com/richardson-tx",
-        "https://lexairconditioning.com/locations/mesquite",
+        "https://lexairconditioning.com/locations/the-colony",
+        "https://lexairconditioning.com/addison-tx",
+        "https://lexairconditioning.com/richardson-plumber",
+        "https://lexairconditioning.com/carrollton-tx",
+        "https://lexairconditioning.com/locations/allen",
         "https://lexairconditioning.com/fort-worth-tx"
       ]
     },
@@ -1537,10 +1545,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Water Heater Repair & Installationin Dallas-Fort Worth",
-      "word_count": 4304,
+      "word_count": 4278,
       "outlinks": 19,
       "child_count": 1,
-      "inbound_count": 23,
+      "inbound_count": 24,
       "issues": [
         {
           "type": "no_schema",
@@ -1550,15 +1558,15 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/plumbing-service/water-heater-services",
       "inbound_links": [
-        "https://lexairconditioning.com/addison-tx",
-        "https://lexairconditioning.com/denton-tx",
-        "https://lexairconditioning.com/service-area/carrollton-tx",
-        "https://lexairconditioning.com/plano-tx",
-        "https://lexairconditioning.com/locations/lewisville",
-        "https://lexairconditioning.com/locations/the-colony",
+        "https://lexairconditioning.com/flower-mound-tx",
+        "https://lexairconditioning.com/allen-tx",
+        "https://lexairconditioning.com/faq",
         "https://lexairconditioning.com/rockwall-tx",
-        "https://lexairconditioning.com/richardson-tx",
-        "https://lexairconditioning.com/locations/mesquite",
+        "https://lexairconditioning.com/locations/the-colony",
+        "https://lexairconditioning.com/addison-tx",
+        "https://lexairconditioning.com/richardson-plumber",
+        "https://lexairconditioning.com/carrollton-tx",
+        "https://lexairconditioning.com/locations/allen",
         "https://lexairconditioning.com/fort-worth-tx"
       ]
     },
@@ -1574,10 +1582,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Carrollton Leak Detection Services",
-      "word_count": 3134,
+      "word_count": 3108,
       "outlinks": 3,
       "child_count": 3,
-      "inbound_count": 9,
+      "inbound_count": 10,
       "issues": [
         {
           "type": "no_schema",
@@ -1589,13 +1597,14 @@
       "inbound_links": [
         "https://lexairconditioning.com/locations/mesquite",
         "https://lexairconditioning.com/fort-worth-tx",
-        "https://lexairconditioning.com/richardson-plumber",
-        "https://lexairconditioning.com/plumbing-service/water-heater-services",
-        "https://lexairconditioning.com/locations/allen",
         "https://lexairconditioning.com/allen-tx",
-        "https://lexairconditioning.com/denton-tx",
         "https://lexairconditioning.com/plumbing-service",
-        "https://lexairconditioning.com/arlington-tx"
+        "https://lexairconditioning.com/denton-tx",
+        "https://lexairconditioning.com/arlington-tx",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/richardson-plumber",
+        "https://lexairconditioning.com/locations/allen",
+        "https://lexairconditioning.com/plumbing-service/water-heater-services"
       ]
     },
     {
@@ -1612,21 +1621,22 @@
       ],
       "h1_count": 1,
       "h1": "Emergency Plumberin Dallas-Fort Worth",
-      "word_count": 3573,
+      "word_count": 3547,
       "outlinks": 0,
       "child_count": 0,
-      "inbound_count": 8,
+      "inbound_count": 9,
       "issues": [],
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/plumbing-service/emergency-plumbing-service",
       "inbound_links": [
         "https://lexairconditioning.com/locations/mesquite",
-        "https://lexairconditioning.com/richardson-plumber",
-        "https://lexairconditioning.com/locations/allen",
-        "https://lexairconditioning.com/denton-tx",
         "https://lexairconditioning.com/allen-tx",
         "https://lexairconditioning.com/plumbing-service",
+        "https://lexairconditioning.com/denton-tx",
         "https://lexairconditioning.com/arlington-tx",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/richardson-plumber",
+        "https://lexairconditioning.com/locations/allen",
         "https://lexairconditioning.com/plano-plumber"
       ]
     },
@@ -1642,10 +1652,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Farmers Branch AC Repair & Heater Repair",
-      "word_count": 3207,
+      "word_count": 3181,
       "outlinks": 10,
       "child_count": 1,
-      "inbound_count": 22,
+      "inbound_count": 25,
       "issues": [
         {
           "type": "no_schema",
@@ -1655,16 +1665,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/farmers-branch-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/surge-protection",
+        "https://lexairconditioning.com/irving-electrician",
         "https://lexairconditioning.com/plumbing-service/repiping",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
+        "https://lexairconditioning.com/allen-electrician",
         "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
-        "https://lexairconditioning.com/ac-system-replacement",
+        "https://lexairconditioning.com/heating/heat-pumps",
+        "https://lexairconditioning.com/electrical-services",
         "https://lexairconditioning.com/plumbing-service/water-heater-services",
-        "https://lexairconditioning.com/electrical-services/breaker-box-replacement",
-        "https://lexairconditioning.com/heating/heater-installation",
-        "https://lexairconditioning.com/electric-services/breaker-box-replacement",
-        "https://lexairconditioning.com/electrical-services"
+        "https://lexairconditioning.com/other-hvac-services/home-automation-zoning",
+        "https://lexairconditioning.com/plumbing-service/tankless-water-heater-services",
+        "https://lexairconditioning.com/service-area"
       ]
     },
     {
@@ -1679,7 +1689,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Repair Prosper, Texas",
-      "word_count": 3680,
+      "word_count": 3654,
       "outlinks": 9,
       "child_count": 0,
       "inbound_count": 8,
@@ -1692,14 +1702,14 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/prosper-tx",
       "inbound_links": [
+        "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/mckinney-tx",
+        "https://lexairconditioning.com/plumbing-service",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
+        "https://lexairconditioning.com/air-conditioning/ac-repair",
         "https://lexairconditioning.com/ac-installation",
         "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
-        "https://lexairconditioning.com/air-conditioning/ac-installation",
-        "https://lexairconditioning.com/plumbing-service",
-        "https://lexairconditioning.com/service-area",
-        "https://lexairconditioning.com/mckinney-tx",
-        "https://lexairconditioning.com/air-conditioning/ac-repair"
+        "https://lexairconditioning.com/service-area"
       ]
     },
     {
@@ -1714,7 +1724,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Little Elm AC Repair & Heater Repair",
-      "word_count": 3260,
+      "word_count": 3234,
       "outlinks": 10,
       "child_count": 0,
       "inbound_count": 3,
@@ -1727,9 +1737,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/little-elm-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/plumbing-service",
+        "https://lexairconditioning.com/air-conditioning/ac-repair",
         "https://lexairconditioning.com/service-area",
-        "https://lexairconditioning.com/air-conditioning/ac-repair"
+        "https://lexairconditioning.com/plumbing-service"
       ]
     },
     {
@@ -1744,10 +1754,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Electrical Panel Replacementin Dallas-Fort Worth",
-      "word_count": 3709,
+      "word_count": 3683,
       "outlinks": 19,
       "child_count": 0,
-      "inbound_count": 9,
+      "inbound_count": 10,
       "issues": [
         {
           "type": "no_schema",
@@ -1757,15 +1767,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services/breaker-box-replacement",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
-        "https://lexairconditioning.com/allen-electrician",
-        "https://lexairconditioning.com/carrollton-electrician",
-        "https://lexairconditioning.com/electric-services/surge-protection",
-        "https://lexairconditioning.com/richardson-electrician",
         "https://lexairconditioning.com/irving-electrician",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/richardson-electrician",
+        "https://lexairconditioning.com/electric-services",
         "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
+        "https://lexairconditioning.com/allen-electrician",
+        "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
+        "https://lexairconditioning.com/carrollton-electrician",
         "https://lexairconditioning.com/electrical-services",
-        "https://lexairconditioning.com/electric-services"
+        "https://lexairconditioning.com/electric-services/surge-protection"
       ]
     },
     {
@@ -1780,7 +1791,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Standby Generator Installationin Dallas-Fort Worth",
-      "word_count": 4045,
+      "word_count": 4019,
       "outlinks": 12,
       "child_count": 3,
       "inbound_count": 17,
@@ -1793,16 +1804,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services/generator-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/allen-electrician",
+        "https://lexairconditioning.com/irving-electrician",
         "https://lexairconditioning.com/fort-worth-tx",
         "https://lexairconditioning.com/flower-mound-tx",
-        "https://lexairconditioning.com/addison-tx",
-        "https://lexairconditioning.com/carrollton-electrician",
         "https://lexairconditioning.com/the-colony-tx",
-        "https://lexairconditioning.com/locations/lewisville",
-        "https://lexairconditioning.com/locations/the-colony",
+        "https://lexairconditioning.com/locations/flower-mound",
+        "https://lexairconditioning.com/grapevine-tx",
         "https://lexairconditioning.com/lewisville-tx",
-        "https://lexairconditioning.com/rockwall-tx"
+        "https://lexairconditioning.com/rockwall-tx",
+        "https://lexairconditioning.com/electric-services",
+        "https://lexairconditioning.com/locations/lewisville"
       ]
     },
     {
@@ -1817,7 +1828,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Whole Home Surge Protectionin Dallas-Fort Worth",
-      "word_count": 3624,
+      "word_count": 3598,
       "outlinks": 19,
       "child_count": 0,
       "inbound_count": 10,
@@ -1830,16 +1841,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services/surge-protection",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
-        "https://lexairconditioning.com/allen-electrician",
-        "https://lexairconditioning.com/carrollton-electrician",
-        "https://lexairconditioning.com/electrical-services/breaker-box-replacement",
-        "https://lexairconditioning.com/richardson-electrician",
         "https://lexairconditioning.com/irving-electrician",
-        "https://lexairconditioning.com/electric-services/breaker-box-replacement",
-        "https://lexairconditioning.com/electrical-services",
+        "https://lexairconditioning.com/richardson-electrician",
+        "https://lexairconditioning.com/electric-services",
         "https://lexairconditioning.com/electric-services/electrical-inspection",
-        "https://lexairconditioning.com/electric-services"
+        "https://lexairconditioning.com/allen-electrician",
+        "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
+        "https://lexairconditioning.com/electric-services/breaker-box-replacement",
+        "https://lexairconditioning.com/carrollton-electrician",
+        "https://lexairconditioning.com/electrical-services",
+        "https://lexairconditioning.com/electrical-services/breaker-box-replacement"
       ]
     },
     {
@@ -1854,7 +1865,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Carrollton Lighting Installation",
-      "word_count": 3497,
+      "word_count": 3471,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 12,
@@ -1867,16 +1878,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services/lighting-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/allen-electrician",
-        "https://lexairconditioning.com/locations/mesquite",
+        "https://lexairconditioning.com/irving-electrician",
         "https://lexairconditioning.com/fort-worth-tx",
-        "https://lexairconditioning.com/carrollton-electrician",
-        "https://lexairconditioning.com/locations/allen",
-        "https://lexairconditioning.com/denton-tx",
+        "https://lexairconditioning.com/locations/mesquite",
         "https://lexairconditioning.com/allen-tx",
-        "https://lexairconditioning.com/richardson-electrician",
+        "https://lexairconditioning.com/denton-tx",
         "https://lexairconditioning.com/arlington-tx",
-        "https://lexairconditioning.com/irving-electrician"
+        "https://lexairconditioning.com/richardson-electrician",
+        "https://lexairconditioning.com/electric-services",
+        "https://lexairconditioning.com/allen-electrician",
+        "https://lexairconditioning.com/locations/allen"
       ]
     },
     {
@@ -1891,7 +1902,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Electricianin Dallas, TX",
-      "word_count": 3109,
+      "word_count": 3083,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 6,
@@ -1904,12 +1915,12 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/dallas-electrician",
       "inbound_links": [
+        "https://lexairconditioning.com/irving-electrician",
+        "https://lexairconditioning.com/electric-services",
         "https://lexairconditioning.com/allen-electrician",
         "https://lexairconditioning.com/carrollton-electrician",
-        "https://lexairconditioning.com/dallas-tx",
-        "https://lexairconditioning.com/irving-electrician",
         "https://lexairconditioning.com/electrical-services",
-        "https://lexairconditioning.com/electric-services"
+        "https://lexairconditioning.com/dallas-tx"
       ]
     },
     {
@@ -1924,10 +1935,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Ceiling Fan Installationin Dallas-Fort Worth",
-      "word_count": 3160,
+      "word_count": 3134,
       "outlinks": 8,
       "child_count": 0,
-      "inbound_count": 11,
+      "inbound_count": 12,
       "issues": [
         {
           "type": "no_schema",
@@ -1937,16 +1948,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services/ceiling-fan-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/allen-electrician",
-        "https://lexairconditioning.com/locations/mesquite",
-        "https://lexairconditioning.com/carrollton-electrician",
-        "https://lexairconditioning.com/locations/allen",
-        "https://lexairconditioning.com/denton-tx",
-        "https://lexairconditioning.com/allen-tx",
-        "https://lexairconditioning.com/richardson-electrician",
-        "https://lexairconditioning.com/arlington-tx",
         "https://lexairconditioning.com/irving-electrician",
-        "https://lexairconditioning.com/electrical-services"
+        "https://lexairconditioning.com/locations/mesquite",
+        "https://lexairconditioning.com/allen-tx",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/denton-tx",
+        "https://lexairconditioning.com/arlington-tx",
+        "https://lexairconditioning.com/richardson-electrician",
+        "https://lexairconditioning.com/electric-services",
+        "https://lexairconditioning.com/allen-electrician",
+        "https://lexairconditioning.com/locations/allen"
       ]
     },
     {
@@ -1965,19 +1976,20 @@
       ],
       "h1_count": 1,
       "h1": "Electrical Safety Inspectionin Dallas-Fort Worth",
-      "word_count": 3638,
+      "word_count": 3612,
       "outlinks": 22,
       "child_count": 18,
-      "inbound_count": 5,
+      "inbound_count": 6,
       "issues": [],
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services/electrical-inspection",
       "inbound_links": [
+        "https://lexairconditioning.com/irving-electrician",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/electric-services",
         "https://lexairconditioning.com/allen-electrician",
         "https://lexairconditioning.com/carrollton-electrician",
-        "https://lexairconditioning.com/irving-electrician",
-        "https://lexairconditioning.com/electrical-services",
-        "https://lexairconditioning.com/electric-services"
+        "https://lexairconditioning.com/electrical-services"
       ]
     },
     {
@@ -1992,7 +2004,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "HVAC, Plumbing & Electrical Services inDenton, TX",
-      "word_count": 2291,
+      "word_count": 2265,
       "outlinks": 18,
       "child_count": 0,
       "inbound_count": 2,
@@ -2005,8 +2017,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/denton-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/about-us",
-        "https://lexairconditioning.com/about-us/financing"
+        "https://lexairconditioning.com/about-us/financing",
+        "https://lexairconditioning.com/about-us"
       ]
     },
     {
@@ -2020,11 +2032,11 @@
       "has_schema": false,
       "schema_types": [],
       "h1_count": 1,
-      "h1": "Contact Lex - Air Conditioning, Heating, Plumbing, Electrical",
-      "word_count": 1976,
-      "outlinks": 0,
-      "child_count": 0,
-      "inbound_count": 9,
+      "h1": "Get inTouch",
+      "word_count": 2116,
+      "outlinks": 22,
+      "child_count": 3,
+      "inbound_count": 10,
       "issues": [
         {
           "type": "no_schema",
@@ -2034,15 +2046,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/contact-us",
       "inbound_links": [
-        "https://lexairconditioning.com/about-us",
-        "https://lexairconditioning.com/keller-tx",
-        "https://lexairconditioning.com/farmers-branch-tx",
-        "https://lexairconditioning.com/little-elm-tx",
+        "https://lexairconditioning.com/faq",
         "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
+        "https://lexairconditioning.com/farmers-branch-tx",
         "https://lexairconditioning.com/indoor-air-quality/humidifiers",
+        "https://lexairconditioning.com/other-hvac-services/commercial-hvac",
+        "https://lexairconditioning.com/about-us",
+        "https://lexairconditioning.com/little-elm-tx",
+        "https://lexairconditioning.com/keller-tx",
         "https://lexairconditioning.com/ac-repair-arlington-tx",
-        "https://lexairconditioning.com/grand-prairie-tx",
-        "https://lexairconditioning.com/other-hvac-services/commercial-hvac"
+        "https://lexairconditioning.com/grand-prairie-tx"
       ]
     },
     {
@@ -2057,10 +2070,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Commercial HVAC Servicesin Dallas-Fort Worth",
-      "word_count": 3433,
+      "word_count": 3407,
       "outlinks": 28,
       "child_count": 4,
-      "inbound_count": 13,
+      "inbound_count": 14,
       "issues": [
         {
           "type": "no_schema",
@@ -2070,16 +2083,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/other-hvac-services/commercial-hvac",
       "inbound_links": [
-        "https://lexairconditioning.com/about-us",
-        "https://lexairconditioning.com/grand-prairie-tx",
-        "https://lexairconditioning.com/keller-tx",
-        "https://lexairconditioning.com/lucas-tx",
         "https://lexairconditioning.com/colleyville-tx",
-        "https://lexairconditioning.com/commercial-boiler-service",
         "https://lexairconditioning.com/farmers-branch-tx",
-        "https://lexairconditioning.com/little-elm-tx",
         "https://lexairconditioning.com/parker-tx",
-        "https://lexairconditioning.com/dallas-heater-repair"
+        "https://lexairconditioning.com/lucas-tx",
+        "https://lexairconditioning.com/highland-park-air-conditioning-and-heating",
+        "https://lexairconditioning.com/dallas-heater-repair",
+        "https://lexairconditioning.com/about-us",
+        "https://lexairconditioning.com/little-elm-tx",
+        "https://lexairconditioning.com/prosper-tx",
+        "https://lexairconditioning.com/keller-tx"
       ]
     },
     {
@@ -2094,7 +2107,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "TheGold Standardof White Glove Service",
-      "word_count": 2198,
+      "word_count": 2172,
       "outlinks": 12,
       "child_count": 0,
       "inbound_count": 1,
@@ -2122,7 +2135,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Highland Village AC Repair",
-      "word_count": 3537,
+      "word_count": 3511,
       "outlinks": 9,
       "child_count": 0,
       "inbound_count": 5,
@@ -2135,11 +2148,11 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/highland-village-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/about-us",
         "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
         "https://lexairconditioning.com/indoor-air-quality/humidifiers",
         "https://lexairconditioning.com/service-area",
-        "https://lexairconditioning.com/other-hvac-services/commercial-hvac"
+        "https://lexairconditioning.com/other-hvac-services/commercial-hvac",
+        "https://lexairconditioning.com/about-us"
       ]
     },
     {
@@ -2154,7 +2167,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "HVAC Repairin Plano, TX",
-      "word_count": 3058,
+      "word_count": 3032,
       "outlinks": 8,
       "child_count": 0,
       "inbound_count": 3,
@@ -2168,8 +2181,8 @@
       "redirected_to": "https://www.lexairconditioning.com/plano-ac-repair",
       "inbound_links": [
         "https://lexairconditioning.com/plano-tx",
-        "https://lexairconditioning.com/plano-ac-repair",
-        "https://lexairconditioning.com/air-conditioning/ac-repair"
+        "https://lexairconditioning.com/air-conditioning/ac-repair",
+        "https://lexairconditioning.com/plano-ac-repair"
       ]
     },
     {
@@ -2184,7 +2197,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installationin Plano, TX",
-      "word_count": 3443,
+      "word_count": 3417,
       "outlinks": 2,
       "child_count": 0,
       "inbound_count": 2,
@@ -2213,7 +2226,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Heater Repairin Plano, TX",
-      "word_count": 3032,
+      "word_count": 3006,
       "outlinks": 1,
       "child_count": 0,
       "inbound_count": 1,
@@ -2241,7 +2254,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Plumberin Plano, TX",
-      "word_count": 2908,
+      "word_count": 2882,
       "outlinks": 4,
       "child_count": 0,
       "inbound_count": 2,
@@ -2270,7 +2283,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Electricianin Plano, TX",
-      "word_count": 3040,
+      "word_count": 3014,
       "outlinks": 5,
       "child_count": 2,
       "inbound_count": 6,
@@ -2283,12 +2296,12 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/plano-electrician",
       "inbound_links": [
-        "https://lexairconditioning.com/electrical-services/ev-charger-installation",
-        "https://lexairconditioning.com/electric-services/ev-charging-station-installation",
+        "https://lexairconditioning.com/plano-ac-repair",
         "https://lexairconditioning.com/plano-tx",
         "https://lexairconditioning.com/electric-services/ceiling-fan-installation",
-        "https://lexairconditioning.com/plano-ac-repair",
-        "https://lexairconditioning.com/electrical-services/ceiling-fan-installation"
+        "https://lexairconditioning.com/electrical-services/ceiling-fan-installation",
+        "https://lexairconditioning.com/electric-services/ev-charging-station-installation",
+        "https://lexairconditioning.com/electrical-services/ev-charger-installation"
       ]
     },
     {
@@ -2303,7 +2316,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Electrical Panel Replacementin Dallas-Fort Worth",
-      "word_count": 3709,
+      "word_count": 3683,
       "outlinks": 19,
       "child_count": 0,
       "inbound_count": 5,
@@ -2316,9 +2329,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services/breaker-box-replacement",
       "inbound_links": [
-        "https://lexairconditioning.com/carrollton-tx",
-        "https://lexairconditioning.com/plano-tx",
         "https://lexairconditioning.com/plano-electrician",
+        "https://lexairconditioning.com/plano-tx",
+        "https://lexairconditioning.com/carrollton-tx",
         "https://lexairconditioning.com/richardson-tx",
         "https://lexairconditioning.com/service-area/carrollton-tx"
       ]
@@ -2335,7 +2348,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "EV Charger Installationin Dallas-Fort Worth",
-      "word_count": 3696,
+      "word_count": 3670,
       "outlinks": 8,
       "child_count": 0,
       "inbound_count": 8,
@@ -2348,14 +2361,14 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services/ev-charging-station-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/carrollton-tx",
         "https://lexairconditioning.com/electric-services/generator-installation",
-        "https://lexairconditioning.com/plano-tx",
         "https://lexairconditioning.com/plano-electrician",
+        "https://lexairconditioning.com/plano-tx",
+        "https://lexairconditioning.com/carrollton-tx",
         "https://lexairconditioning.com/electric-services/backup-generator-installation",
         "https://lexairconditioning.com/richardson-tx",
-        "https://lexairconditioning.com/service-area/carrollton-tx",
-        "https://lexairconditioning.com/dallas-generator-installation"
+        "https://lexairconditioning.com/dallas-generator-installation",
+        "https://lexairconditioning.com/service-area/carrollton-tx"
       ]
     },
     {
@@ -2370,7 +2383,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Repairin Frisco, TX",
-      "word_count": 2150,
+      "word_count": 2124,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -2402,7 +2415,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installationin Frisco, TX",
-      "word_count": 2139,
+      "word_count": 2113,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -2430,7 +2443,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Frisco Heater Repair- Fast, Reliable Furnace & Heating Repair",
-      "word_count": 3174,
+      "word_count": 3148,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -2462,7 +2475,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Plumberin Frisco, TX",
-      "word_count": 2155,
+      "word_count": 2129,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -2494,7 +2507,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Electricianin Frisco, TX",
-      "word_count": 2537,
+      "word_count": 2511,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 5,
@@ -2507,11 +2520,11 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/frisco-electrician",
       "inbound_links": [
-        "https://lexairconditioning.com/frisco-tx",
-        "https://lexairconditioning.com/electrical-services/ev-charger-installation",
-        "https://lexairconditioning.com/electric-services/ev-charging-station-installation",
         "https://lexairconditioning.com/electric-services/ceiling-fan-installation",
-        "https://lexairconditioning.com/electrical-services/ceiling-fan-installation"
+        "https://lexairconditioning.com/electrical-services/ceiling-fan-installation",
+        "https://lexairconditioning.com/electric-services/ev-charging-station-installation",
+        "https://lexairconditioning.com/electrical-services/ev-charger-installation",
+        "https://lexairconditioning.com/frisco-tx"
       ]
     },
     {
@@ -2526,7 +2539,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Repairin Carrollton, TX",
-      "word_count": 3146,
+      "word_count": 3120,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 2,
@@ -2559,7 +2572,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installationin Carrollton, TX",
-      "word_count": 3252,
+      "word_count": 3226,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 2,
@@ -2592,7 +2605,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Heater Repairin Carrollton, TX",
-      "word_count": 3167,
+      "word_count": 3141,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 2,
@@ -2625,7 +2638,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Plumberin Carrollton, TX",
-      "word_count": 3220,
+      "word_count": 3194,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 2,
@@ -2663,7 +2676,7 @@
       ],
       "h1_count": 1,
       "h1": "Electrical Servicesin Dallas-Fort Worth",
-      "word_count": 5882,
+      "word_count": 5856,
       "outlinks": 42,
       "child_count": 0,
       "inbound_count": 6,
@@ -2671,12 +2684,12 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services",
       "inbound_links": [
+        "https://lexairconditioning.com/electric-services/ceiling-fan-installation",
+        "https://lexairconditioning.com/electrical-services/ceiling-fan-installation",
+        "https://lexairconditioning.com/electric-services/ev-charging-station-installation",
         "https://lexairconditioning.com/carrollton-tx",
         "https://lexairconditioning.com/electrical-services/ev-charger-installation",
-        "https://lexairconditioning.com/electric-services/ev-charging-station-installation",
-        "https://lexairconditioning.com/electric-services/ceiling-fan-installation",
-        "https://lexairconditioning.com/service-area/carrollton-tx",
-        "https://lexairconditioning.com/electrical-services/ceiling-fan-installation"
+        "https://lexairconditioning.com/service-area/carrollton-tx"
       ]
     },
     {
@@ -2691,7 +2704,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Repairin Richardson, TX",
-      "word_count": 3733,
+      "word_count": 3707,
       "outlinks": 17,
       "child_count": 0,
       "inbound_count": 5,
@@ -2704,11 +2717,11 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/richardson-ac-repair",
       "inbound_links": [
-        "https://lexairconditioning.com/richardson-plumber",
-        "https://lexairconditioning.com/richardson-tx",
-        "https://lexairconditioning.com/richardson-ac-installation",
         "https://lexairconditioning.com/locations/richardson",
-        "https://lexairconditioning.com/richardson-heater-repair"
+        "https://lexairconditioning.com/richardson-plumber",
+        "https://lexairconditioning.com/richardson-heater-repair",
+        "https://lexairconditioning.com/richardson-tx",
+        "https://lexairconditioning.com/richardson-ac-installation"
       ]
     },
     {
@@ -2723,7 +2736,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installationin Richardson, TX",
-      "word_count": 3312,
+      "word_count": 3286,
       "outlinks": 13,
       "child_count": 0,
       "inbound_count": 3,
@@ -2736,9 +2749,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/richardson-ac-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/richardson-tx",
+        "https://lexairconditioning.com/richardson-plumber",
         "https://lexairconditioning.com/richardson-heater-repair",
-        "https://lexairconditioning.com/richardson-plumber"
+        "https://lexairconditioning.com/richardson-tx"
       ]
     },
     {
@@ -2753,7 +2766,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Heater Repairin Richardson, TX",
-      "word_count": 3535,
+      "word_count": 3509,
       "outlinks": 18,
       "child_count": 0,
       "inbound_count": 1,
@@ -2781,7 +2794,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Plumberin Richardson, TX",
-      "word_count": 3416,
+      "word_count": 3390,
       "outlinks": 12,
       "child_count": 0,
       "inbound_count": 2,
@@ -2794,8 +2807,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/richardson-plumber",
       "inbound_links": [
-        "https://lexairconditioning.com/richardson-tx",
-        "https://lexairconditioning.com/richardson-heater-repair"
+        "https://lexairconditioning.com/richardson-heater-repair",
+        "https://lexairconditioning.com/richardson-tx"
       ]
     },
     {
@@ -2810,7 +2823,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Electricianin Richardson, TX",
-      "word_count": 3518,
+      "word_count": 3492,
       "outlinks": 15,
       "child_count": 0,
       "inbound_count": 6,
@@ -2823,12 +2836,12 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/richardson-electrician",
       "inbound_links": [
-        "https://lexairconditioning.com/electrical-services/ev-charger-installation",
-        "https://lexairconditioning.com/electric-services/ev-charging-station-installation",
         "https://lexairconditioning.com/electric-services/ceiling-fan-installation",
-        "https://lexairconditioning.com/richardson-tx",
+        "https://lexairconditioning.com/electrical-services/ceiling-fan-installation",
+        "https://lexairconditioning.com/electric-services/ev-charging-station-installation",
         "https://lexairconditioning.com/richardson-heater-repair",
-        "https://lexairconditioning.com/electrical-services/ceiling-fan-installation"
+        "https://lexairconditioning.com/richardson-tx",
+        "https://lexairconditioning.com/electrical-services/ev-charger-installation"
       ]
     },
     {
@@ -2843,7 +2856,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Electricianin Dallas, TX",
-      "word_count": 3109,
+      "word_count": 3083,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 4,
@@ -2856,10 +2869,10 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/dallas-electrician",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/ev-charging-station-installation",
-        "https://lexairconditioning.com/electrical-services/ceiling-fan-installation",
+        "https://lexairconditioning.com/electrical-services/ev-charger-installation",
         "https://lexairconditioning.com/electric-services/ceiling-fan-installation",
-        "https://lexairconditioning.com/electrical-services/ev-charger-installation"
+        "https://lexairconditioning.com/electrical-services/ceiling-fan-installation",
+        "https://lexairconditioning.com/electric-services/ev-charging-station-installation"
       ]
     },
     {
@@ -2874,7 +2887,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Electricianin McKinney, TX",
-      "word_count": 3509,
+      "word_count": 3483,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 4,
@@ -2887,10 +2900,10 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/mckinney-electrician",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/ev-charging-station-installation",
-        "https://lexairconditioning.com/electrical-services/ceiling-fan-installation",
+        "https://lexairconditioning.com/electrical-services/ev-charger-installation",
         "https://lexairconditioning.com/electric-services/ceiling-fan-installation",
-        "https://lexairconditioning.com/electrical-services/ev-charger-installation"
+        "https://lexairconditioning.com/electrical-services/ceiling-fan-installation",
+        "https://lexairconditioning.com/electric-services/ev-charging-station-installation"
       ]
     },
     {
@@ -2910,7 +2923,7 @@
       ],
       "h1_count": 1,
       "h1": "Electrical Servicesin Dallas-Fort Worth",
-      "word_count": 5882,
+      "word_count": 5856,
       "outlinks": 42,
       "child_count": 0,
       "inbound_count": 4,
@@ -2918,10 +2931,10 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/ev-charging-station-installation",
-        "https://lexairconditioning.com/electrical-services/ceiling-fan-installation",
+        "https://lexairconditioning.com/electrical-services/ev-charger-installation",
         "https://lexairconditioning.com/electric-services/ceiling-fan-installation",
-        "https://lexairconditioning.com/electrical-services/ev-charger-installation"
+        "https://lexairconditioning.com/electrical-services/ceiling-fan-installation",
+        "https://lexairconditioning.com/electric-services/ev-charging-station-installation"
       ]
     },
     {
@@ -2941,7 +2954,7 @@
       ],
       "h1_count": 1,
       "h1": "Electrical Servicesin Dallas-Fort Worth",
-      "word_count": 5882,
+      "word_count": 5856,
       "outlinks": 42,
       "child_count": 0,
       "inbound_count": 4,
@@ -2949,10 +2962,10 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/ev-charging-station-installation",
-        "https://lexairconditioning.com/electrical-services/ceiling-fan-installation",
+        "https://lexairconditioning.com/electrical-services/ev-charger-installation",
         "https://lexairconditioning.com/electric-services/ceiling-fan-installation",
-        "https://lexairconditioning.com/electrical-services/ev-charger-installation"
+        "https://lexairconditioning.com/electrical-services/ceiling-fan-installation",
+        "https://lexairconditioning.com/electric-services/ev-charging-station-installation"
       ]
     },
     {
@@ -2967,7 +2980,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Heater Tune-Upsin Dallas-Fort Worth",
-      "word_count": 3186,
+      "word_count": 3160,
       "outlinks": 1,
       "child_count": 0,
       "inbound_count": 6,
@@ -2984,12 +2997,12 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/heating/heater-tune-ups",
       "inbound_links": [
+        "https://lexairconditioning.com/hvac-maintenance",
         "https://lexairconditioning.com/fort-worth-tx",
         "https://lexairconditioning.com/ac-services/ac-tune-up",
+        "https://lexairconditioning.com/air-conditioning/ac-tune-up",
         "https://lexairconditioning.com/air-conditioning/ac-tune-ups",
-        "https://lexairconditioning.com/commercial-boiler-service",
-        "https://lexairconditioning.com/hvac-maintenance",
-        "https://lexairconditioning.com/air-conditioning/ac-tune-up"
+        "https://lexairconditioning.com/commercial-boiler-service"
       ]
     },
     {
@@ -3006,7 +3019,7 @@
       ],
       "h1_count": 1,
       "h1": "Electrical Panel Services in Carrollton, TX",
-      "word_count": 3365,
+      "word_count": 3339,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 11,
@@ -3016,14 +3029,14 @@
       "inbound_links": [
         "https://lexairconditioning.com/locations/mesquite",
         "https://lexairconditioning.com/fort-worth-tx",
-        "https://lexairconditioning.com/locations/allen",
-        "https://lexairconditioning.com/addison-tx",
         "https://lexairconditioning.com/allen-tx",
         "https://lexairconditioning.com/denton-tx",
-        "https://lexairconditioning.com/rockwall-tx",
+        "https://lexairconditioning.com/arlington-tx",
         "https://lexairconditioning.com/grapevine-tx",
+        "https://lexairconditioning.com/rockwall-tx",
         "https://lexairconditioning.com/locations/addison",
-        "https://lexairconditioning.com/arlington-tx"
+        "https://lexairconditioning.com/addison-tx",
+        "https://lexairconditioning.com/electric-services/electrical-inspection"
       ]
     },
     {
@@ -3038,7 +3051,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Heater Repairin Dallas-Fort Worth",
-      "word_count": 3143,
+      "word_count": 3117,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 7,
@@ -3053,11 +3066,11 @@
       "inbound_links": [
         "https://lexairconditioning.com/locations/mesquite",
         "https://lexairconditioning.com/fort-worth-tx",
-        "https://lexairconditioning.com/locations/allen",
-        "https://lexairconditioning.com/commercial-boiler-service",
-        "https://lexairconditioning.com/denton-tx",
         "https://lexairconditioning.com/allen-tx",
-        "https://lexairconditioning.com/arlington-tx"
+        "https://lexairconditioning.com/denton-tx",
+        "https://lexairconditioning.com/arlington-tx",
+        "https://lexairconditioning.com/locations/allen",
+        "https://lexairconditioning.com/commercial-boiler-service"
       ]
     },
     {
@@ -3076,7 +3089,7 @@
       ],
       "h1_count": 1,
       "h1": "Heater Installationin Dallas-Fort Worth",
-      "word_count": 3416,
+      "word_count": 3390,
       "outlinks": 15,
       "child_count": 0,
       "inbound_count": 9,
@@ -3090,14 +3103,14 @@
       "redirected_to": "https://www.lexairconditioning.com/heating/heater-installation",
       "inbound_links": [
         "https://lexairconditioning.com/locations/mesquite",
-        "https://lexairconditioning.com/locations/allen",
-        "https://lexairconditioning.com/commercial-boiler-service",
-        "https://lexairconditioning.com/ac-installation",
-        "https://lexairconditioning.com/denton-tx",
         "https://lexairconditioning.com/allen-tx",
         "https://lexairconditioning.com/air-conditioning/ac-installation",
+        "https://lexairconditioning.com/denton-tx",
         "https://lexairconditioning.com/arlington-tx",
-        "https://lexairconditioning.com/richardson-heater-repair"
+        "https://lexairconditioning.com/ac-installation",
+        "https://lexairconditioning.com/richardson-heater-repair",
+        "https://lexairconditioning.com/locations/allen",
+        "https://lexairconditioning.com/commercial-boiler-service"
       ]
     },
     {
@@ -3116,10 +3129,10 @@
       ],
       "h1_count": 1,
       "h1": "Sewer Line Repair & Replacementin Dallas-Fort Worth",
-      "word_count": 4100,
+      "word_count": 4074,
       "outlinks": 15,
       "child_count": 0,
-      "inbound_count": 5,
+      "inbound_count": 6,
       "issues": [
         {
           "type": "missing_meta",
@@ -3130,10 +3143,11 @@
       "redirected_to": "https://www.lexairconditioning.com/plumbing-service/sewer-line-repair-and-replacement",
       "inbound_links": [
         "https://lexairconditioning.com/locations/mesquite",
-        "https://lexairconditioning.com/locations/allen",
-        "https://lexairconditioning.com/denton-tx",
         "https://lexairconditioning.com/allen-tx",
-        "https://lexairconditioning.com/arlington-tx"
+        "https://lexairconditioning.com/denton-tx",
+        "https://lexairconditioning.com/arlington-tx",
+        "https://lexairconditioning.com/plumbing-service/hydro-jetting",
+        "https://lexairconditioning.com/locations/allen"
       ]
     },
     {
@@ -3152,10 +3166,10 @@
       ],
       "h1_count": 1,
       "h1": "Whole House Repipingin Dallas-Fort Worth",
-      "word_count": 3720,
+      "word_count": 3694,
       "outlinks": 15,
       "child_count": 0,
-      "inbound_count": 5,
+      "inbound_count": 6,
       "issues": [
         {
           "type": "missing_meta",
@@ -3166,10 +3180,11 @@
       "redirected_to": "https://www.lexairconditioning.com/plumbing-service/repiping",
       "inbound_links": [
         "https://lexairconditioning.com/locations/mesquite",
-        "https://lexairconditioning.com/locations/allen",
-        "https://lexairconditioning.com/denton-tx",
         "https://lexairconditioning.com/allen-tx",
-        "https://lexairconditioning.com/arlington-tx"
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/denton-tx",
+        "https://lexairconditioning.com/arlington-tx",
+        "https://lexairconditioning.com/locations/allen"
       ]
     },
     {
@@ -3184,7 +3199,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Emergency Electricianin Dallas-Fort Worth",
-      "word_count": 3576,
+      "word_count": 3550,
       "outlinks": 20,
       "child_count": 1,
       "inbound_count": 9,
@@ -3198,14 +3213,14 @@
       "redirected_to": "https://www.lexairconditioning.com/electric-services/emergency-electrician-dallas",
       "inbound_links": [
         "https://lexairconditioning.com/locations/mesquite",
-        "https://lexairconditioning.com/electrical-services/breaker-box-replacement",
+        "https://lexairconditioning.com/allen-tx",
+        "https://lexairconditioning.com/denton-tx",
+        "https://lexairconditioning.com/arlington-tx",
+        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
+        "https://lexairconditioning.com/electric-services/breaker-box-replacement",
         "https://lexairconditioning.com/locations/allen",
         "https://lexairconditioning.com/electric-services/surge-protection",
-        "https://lexairconditioning.com/denton-tx",
-        "https://lexairconditioning.com/allen-tx",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
-        "https://lexairconditioning.com/arlington-tx",
-        "https://lexairconditioning.com/electric-services/breaker-box-replacement"
+        "https://lexairconditioning.com/electrical-services/breaker-box-replacement"
       ]
     },
     {
@@ -3220,7 +3235,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Carrollton Home Rewiring Services",
-      "word_count": 3102,
+      "word_count": 3076,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 10,
@@ -3234,15 +3249,15 @@
       "redirected_to": "https://www.lexairconditioning.com/electric-services/home-rewiring",
       "inbound_links": [
         "https://lexairconditioning.com/locations/mesquite",
-        "https://lexairconditioning.com/electrical-services/breaker-box-replacement",
-        "https://lexairconditioning.com/locations/allen",
-        "https://lexairconditioning.com/electric-services/surge-protection",
         "https://lexairconditioning.com/allen-tx",
         "https://lexairconditioning.com/denton-tx",
-        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
         "https://lexairconditioning.com/arlington-tx",
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/electrical-services/whole-house-surge-protector",
         "https://lexairconditioning.com/electric-services/breaker-box-replacement",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/locations/allen",
+        "https://lexairconditioning.com/electric-services/surge-protection",
+        "https://lexairconditioning.com/electrical-services/breaker-box-replacement"
       ]
     },
     {
@@ -3257,7 +3272,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Repair in Coppell, TX",
-      "word_count": 3010,
+      "word_count": 2984,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -3285,7 +3300,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installation in Coppell, TX",
-      "word_count": 2860,
+      "word_count": 2834,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -3313,7 +3328,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Heater Repair in Coppell, TX",
-      "word_count": 2731,
+      "word_count": 2705,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -3341,7 +3356,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Plumber in Coppell, TX",
-      "word_count": 2939,
+      "word_count": 2913,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -3369,7 +3384,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Electrician in Coppell, TX",
-      "word_count": 2785,
+      "word_count": 2759,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -3397,7 +3412,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installation in Dallas, TX",
-      "word_count": 2617,
+      "word_count": 2591,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -3425,7 +3440,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Dallas Heater Repair",
-      "word_count": 3839,
+      "word_count": 3813,
       "outlinks": 11,
       "child_count": 0,
       "inbound_count": 1,
@@ -3453,7 +3468,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Plumberin Dallas, TX",
-      "word_count": 2166,
+      "word_count": 2140,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -3483,7 +3498,7 @@
       ],
       "h1_count": 1,
       "h1": "Ductless Mini-Splits Keller, TX",
-      "word_count": 3527,
+      "word_count": 3501,
       "outlinks": 11,
       "child_count": 0,
       "inbound_count": 2,
@@ -3507,7 +3522,7 @@
       "schema_types": [],
       "h1_count": 0,
       "h1": "",
-      "word_count": 2227,
+      "word_count": 2201,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 6,
@@ -3524,12 +3539,12 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/water-heater-replacement",
       "inbound_links": [
-        "https://lexairconditioning.com/rowlett-tx",
-        "https://lexairconditioning.com/locations/irving",
-        "https://lexairconditioning.com/garland-tx",
-        "https://lexairconditioning.com/locations/garland",
         "https://lexairconditioning.com/mckinney-tx",
-        "https://lexairconditioning.com/irving-tx"
+        "https://lexairconditioning.com/locations/irving",
+        "https://lexairconditioning.com/irving-tx",
+        "https://lexairconditioning.com/locations/garland",
+        "https://lexairconditioning.com/garland-tx",
+        "https://lexairconditioning.com/rowlett-tx"
       ]
     },
     {
@@ -3544,7 +3559,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Drain Cleaning & Repairin Dallas-Fort Worth",
-      "word_count": 3339,
+      "word_count": 3313,
       "outlinks": 1,
       "child_count": 0,
       "inbound_count": 7,
@@ -3557,13 +3572,13 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/plumbing-service/drain-service",
       "inbound_links": [
-        "https://lexairconditioning.com/rowlett-tx",
-        "https://lexairconditioning.com/plumbing-service/water-heater-services",
-        "https://lexairconditioning.com/garland-tx",
-        "https://lexairconditioning.com/locations/irving",
-        "https://lexairconditioning.com/locations/garland",
         "https://lexairconditioning.com/mckinney-tx",
-        "https://lexairconditioning.com/irving-tx"
+        "https://lexairconditioning.com/locations/irving",
+        "https://lexairconditioning.com/irving-tx",
+        "https://lexairconditioning.com/locations/garland",
+        "https://lexairconditioning.com/garland-tx",
+        "https://lexairconditioning.com/rowlett-tx",
+        "https://lexairconditioning.com/plumbing-service/water-heater-services"
       ]
     },
     {
@@ -3578,7 +3593,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Electrical Panel Upgrades: When Your Home Needs More Power",
-      "word_count": 2903,
+      "word_count": 2877,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 6,
@@ -3591,12 +3606,12 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/blog/2025/11/electrical-panel-upgrades-when-your-home-needs-more-power",
       "inbound_links": [
-        "https://lexairconditioning.com/rowlett-tx",
-        "https://lexairconditioning.com/locations/irving",
-        "https://lexairconditioning.com/garland-tx",
-        "https://lexairconditioning.com/locations/garland",
         "https://lexairconditioning.com/mckinney-tx",
-        "https://lexairconditioning.com/irving-tx"
+        "https://lexairconditioning.com/locations/irving",
+        "https://lexairconditioning.com/irving-tx",
+        "https://lexairconditioning.com/locations/garland",
+        "https://lexairconditioning.com/garland-tx",
+        "https://lexairconditioning.com/rowlett-tx"
       ]
     },
     {
@@ -3611,10 +3626,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Standby Generator Installationin Dallas-Fort Worth",
-      "word_count": 4045,
+      "word_count": 4019,
       "outlinks": 12,
       "child_count": 0,
-      "inbound_count": 6,
+      "inbound_count": 7,
       "issues": [
         {
           "type": "no_schema",
@@ -3624,12 +3639,13 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services/generator-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/rowlett-tx",
-        "https://lexairconditioning.com/locations/irving",
-        "https://lexairconditioning.com/garland-tx",
-        "https://lexairconditioning.com/locations/garland",
         "https://lexairconditioning.com/mckinney-tx",
-        "https://lexairconditioning.com/irving-tx"
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/locations/irving",
+        "https://lexairconditioning.com/irving-tx",
+        "https://lexairconditioning.com/locations/garland",
+        "https://lexairconditioning.com/garland-tx",
+        "https://lexairconditioning.com/rowlett-tx"
       ]
     },
     {
@@ -3644,7 +3660,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Rowlett's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 2271,
+      "word_count": 2245,
       "outlinks": 9,
       "child_count": 0,
       "inbound_count": 2,
@@ -3657,8 +3673,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/rowlett-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/locations/garland",
-        "https://lexairconditioning.com/garland-tx"
+        "https://lexairconditioning.com/garland-tx",
+        "https://lexairconditioning.com/locations/garland"
       ]
     },
     {
@@ -3673,7 +3689,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Heating and AC Repair Grand Prairie, TX",
-      "word_count": 3535,
+      "word_count": 3509,
       "outlinks": 10,
       "child_count": 0,
       "inbound_count": 3,
@@ -3686,9 +3702,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/grand-prairie-tx",
       "inbound_links": [
+        "https://lexairconditioning.com/irving-tx",
         "https://lexairconditioning.com/other-hvac-services/commercial-hvac",
-        "https://lexairconditioning.com/locations/irving",
-        "https://lexairconditioning.com/irving-tx"
+        "https://lexairconditioning.com/locations/irving"
       ]
     },
     {
@@ -3703,10 +3719,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Repairin Rockwall, TX",
-      "word_count": 2647,
+      "word_count": 2621,
       "outlinks": 0,
       "child_count": 0,
-      "inbound_count": 1,
+      "inbound_count": 4,
       "issues": [
         {
           "type": "no_schema",
@@ -3716,7 +3732,10 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/rockwall-ac-repair",
       "inbound_links": [
-        "https://lexairconditioning.com/rockwall-tx"
+        "https://lexairconditioning.com/rockwall-tx",
+        "https://lexairconditioning.com/contact",
+        "https://lexairconditioning.com/contact-us",
+        "https://lexairconditioning.com/faq"
       ]
     },
     {
@@ -3731,7 +3750,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installationin Rockwall, TX",
-      "word_count": 3484,
+      "word_count": 3458,
       "outlinks": 10,
       "child_count": 0,
       "inbound_count": 1,
@@ -3759,7 +3778,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Heater Repairin Rockwall, TX",
-      "word_count": 3251,
+      "word_count": 3225,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -3787,7 +3806,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installationin Southlake, TX",
-      "word_count": 2123,
+      "word_count": 2097,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -3815,7 +3834,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Repairin Southlake, TX",
-      "word_count": 1537,
+      "word_count": 1511,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -3843,7 +3862,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Plumberin Southlake, TX",
-      "word_count": 2149,
+      "word_count": 2123,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -3871,7 +3890,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Electricianin Southlake, TX",
-      "word_count": 2136,
+      "word_count": 2110,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -3899,7 +3918,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Repair Colleyville, TX",
-      "word_count": 2872,
+      "word_count": 2846,
       "outlinks": 9,
       "child_count": 0,
       "inbound_count": 1,
@@ -3927,7 +3946,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Lucas Heating and Air",
-      "word_count": 3172,
+      "word_count": 3146,
       "outlinks": 9,
       "child_count": 0,
       "inbound_count": 1,
@@ -3955,7 +3974,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Parker Air Conditioning and Heating",
-      "word_count": 3198,
+      "word_count": 3172,
       "outlinks": 9,
       "child_count": 0,
       "inbound_count": 1,
@@ -3983,7 +4002,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Westlake's TrustedHome Service Experts",
-      "word_count": 2232,
+      "word_count": 2206,
       "outlinks": 6,
       "child_count": 0,
       "inbound_count": 1,
@@ -4011,7 +4030,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "HVAC Repairin Rowlett, TX",
-      "word_count": 2701,
+      "word_count": 2675,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 2,
@@ -4040,7 +4059,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Smart Thermostat Installationin Dallas-Fort Worth",
-      "word_count": 3595,
+      "word_count": 3569,
       "outlinks": 10,
       "child_count": 0,
       "inbound_count": 4,
@@ -4053,10 +4072,10 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/thermostats",
       "inbound_links": [
-        "https://lexairconditioning.com/systems/ductless-mini-split",
-        "https://lexairconditioning.com/ductless-mini-splits",
         "https://lexairconditioning.com/air-conditioning/ductless-mini-split-ac",
-        "https://lexairconditioning.com/plano-ac-repair"
+        "https://lexairconditioning.com/systems/ductless-mini-split",
+        "https://lexairconditioning.com/plano-ac-repair",
+        "https://lexairconditioning.com/ductless-mini-splits"
       ]
     },
     {
@@ -4076,17 +4095,18 @@
       ],
       "h1_count": 1,
       "h1": "AC Installation DFWNew AC Unit Cost & Financing",
-      "word_count": 3224,
+      "word_count": 3198,
       "outlinks": 28,
       "child_count": 0,
-      "inbound_count": 3,
+      "inbound_count": 4,
       "issues": [],
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/air-conditioning/ac-installation",
       "inbound_links": [
+        "https://lexairconditioning.com/systems/thermostats",
         "https://lexairconditioning.com/thermostats",
         "https://lexairconditioning.com/air-conditioning/thermostats",
-        "https://lexairconditioning.com/systems/thermostats"
+        "https://lexairconditioning.com/seer-savings-calculator"
       ]
     },
     {
@@ -4101,7 +4121,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Heater Repairin Dallas-Fort Worth",
-      "word_count": 3143,
+      "word_count": 3117,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 3,
@@ -4114,9 +4134,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/heating/heater-repair",
       "inbound_links": [
+        "https://lexairconditioning.com/systems/thermostats",
         "https://lexairconditioning.com/thermostats",
-        "https://lexairconditioning.com/air-conditioning/thermostats",
-        "https://lexairconditioning.com/systems/thermostats"
+        "https://lexairconditioning.com/air-conditioning/thermostats"
       ]
     },
     {
@@ -4131,7 +4151,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Spring AC Tune-Ups in DFW |Beat the Summer Rush",
-      "word_count": 2877,
+      "word_count": 2851,
       "outlinks": 29,
       "child_count": 0,
       "inbound_count": 3,
@@ -4144,9 +4164,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/air-conditioning/ac-tune-ups",
       "inbound_links": [
+        "https://lexairconditioning.com/systems/thermostats",
         "https://lexairconditioning.com/thermostats",
-        "https://lexairconditioning.com/air-conditioning/thermostats",
-        "https://lexairconditioning.com/systems/thermostats"
+        "https://lexairconditioning.com/air-conditioning/thermostats"
       ]
     },
     {
@@ -4161,7 +4181,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Ductless Mini-Split ACin Dallas-Fort Worth",
-      "word_count": 3562,
+      "word_count": 3536,
       "outlinks": 16,
       "child_count": 0,
       "inbound_count": 3,
@@ -4174,9 +4194,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/air-conditioning/ductless-mini-split-ac",
       "inbound_links": [
+        "https://lexairconditioning.com/systems/thermostats",
         "https://lexairconditioning.com/thermostats",
-        "https://lexairconditioning.com/air-conditioning/thermostats",
-        "https://lexairconditioning.com/systems/thermostats"
+        "https://lexairconditioning.com/air-conditioning/thermostats"
       ]
     },
     {
@@ -4195,7 +4215,7 @@
       ],
       "h1_count": 1,
       "h1": "Sewer Line Repair & Replacementin Dallas-Fort Worth",
-      "word_count": 4100,
+      "word_count": 4074,
       "outlinks": 15,
       "child_count": 0,
       "inbound_count": 1,
@@ -4226,7 +4246,7 @@
       "word_count": 36,
       "outlinks": 0,
       "child_count": 0,
-      "inbound_count": 4,
+      "inbound_count": 5,
       "issues": [
         {
           "type": "no_schema",
@@ -4236,10 +4256,11 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/specials/10-off-repair-for-university-students-staff",
       "inbound_links": [
-        "https://lexairconditioning.com/commercial-boiler-service",
         "https://lexairconditioning.com/plumbing-service/leak-detection",
         "https://lexairconditioning.com/dallas-heater-repair",
-        "https://lexairconditioning.com/plumbing-service/commercial-plumbing"
+        "https://lexairconditioning.com/plumbing-service/commercial-plumbing",
+        "https://lexairconditioning.com/plumbing-service/garbage-disposal-repair",
+        "https://lexairconditioning.com/commercial-boiler-service"
       ]
     },
     {
@@ -4257,7 +4278,7 @@
       "word_count": 36,
       "outlinks": 0,
       "child_count": 0,
-      "inbound_count": 4,
+      "inbound_count": 5,
       "issues": [
         {
           "type": "missing_meta",
@@ -4271,10 +4292,11 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/specials/10-off-repair-for-active-military-and-veterans",
       "inbound_links": [
-        "https://lexairconditioning.com/commercial-boiler-service",
         "https://lexairconditioning.com/plumbing-service/leak-detection",
         "https://lexairconditioning.com/dallas-heater-repair",
-        "https://lexairconditioning.com/plumbing-service/commercial-plumbing"
+        "https://lexairconditioning.com/plumbing-service/commercial-plumbing",
+        "https://lexairconditioning.com/plumbing-service/garbage-disposal-repair",
+        "https://lexairconditioning.com/commercial-boiler-service"
       ]
     },
     {
@@ -4292,7 +4314,7 @@
       "word_count": 23,
       "outlinks": 0,
       "child_count": 0,
-      "inbound_count": 4,
+      "inbound_count": 5,
       "issues": [
         {
           "type": "no_schema",
@@ -4302,10 +4324,11 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/specials/10-off-air-scrubbers-by-aerus",
       "inbound_links": [
-        "https://lexairconditioning.com/commercial-boiler-service",
         "https://lexairconditioning.com/plumbing-service/leak-detection",
         "https://lexairconditioning.com/dallas-heater-repair",
-        "https://lexairconditioning.com/plumbing-service/commercial-plumbing"
+        "https://lexairconditioning.com/plumbing-service/commercial-plumbing",
+        "https://lexairconditioning.com/plumbing-service/garbage-disposal-repair",
+        "https://lexairconditioning.com/commercial-boiler-service"
       ]
     },
     {
@@ -4320,10 +4343,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Home Automation & HVAC Zoningin Dallas-Fort Worth",
-      "word_count": 3740,
+      "word_count": 3714,
       "outlinks": 19,
       "child_count": 2,
-      "inbound_count": 13,
+      "inbound_count": 14,
       "issues": [
         {
           "type": "no_schema",
@@ -4333,16 +4356,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/other-hvac-services/home-automation-zoning",
       "inbound_links": [
-        "https://lexairconditioning.com/grand-prairie-tx",
-        "https://lexairconditioning.com/keller-tx",
-        "https://lexairconditioning.com/lucas-tx",
         "https://lexairconditioning.com/colleyville-tx",
-        "https://lexairconditioning.com/commercial-boiler-service",
         "https://lexairconditioning.com/farmers-branch-tx",
-        "https://lexairconditioning.com/little-elm-tx",
-        "https://lexairconditioning.com/westlake-tx",
         "https://lexairconditioning.com/parker-tx",
-        "https://lexairconditioning.com/dallas-heater-repair"
+        "https://lexairconditioning.com/lucas-tx",
+        "https://lexairconditioning.com/westlake-tx",
+        "https://lexairconditioning.com/highland-park-air-conditioning-and-heating",
+        "https://lexairconditioning.com/dallas-heater-repair",
+        "https://lexairconditioning.com/prosper-tx",
+        "https://lexairconditioning.com/little-elm-tx",
+        "https://lexairconditioning.com/keller-tx"
       ]
     },
     {
@@ -4357,7 +4380,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Electrical Panel Upgrades: When Your Home Needs More Power",
-      "word_count": 2903,
+      "word_count": 2877,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 3,
@@ -4370,9 +4393,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/blog/2025/11/electrical-panel-upgrades-when-your-home-needs-more-power",
       "inbound_links": [
-        "https://lexairconditioning.com/dallas-generator-installation",
         "https://lexairconditioning.com/electric-services/generator-installation",
-        "https://lexairconditioning.com/electric-services/backup-generator-installation"
+        "https://lexairconditioning.com/electric-services/backup-generator-installation",
+        "https://lexairconditioning.com/dallas-generator-installation"
       ]
     },
     {
@@ -4387,7 +4410,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Ceiling Fan Installationin Dallas-Fort Worth",
-      "word_count": 3160,
+      "word_count": 3134,
       "outlinks": 8,
       "child_count": 0,
       "inbound_count": 3,
@@ -4400,9 +4423,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services/ceiling-fan-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/dallas-generator-installation",
         "https://lexairconditioning.com/electric-services/generator-installation",
-        "https://lexairconditioning.com/electric-services/backup-generator-installation"
+        "https://lexairconditioning.com/electric-services/backup-generator-installation",
+        "https://lexairconditioning.com/dallas-generator-installation"
       ]
     },
     {
@@ -4422,7 +4445,7 @@
       ],
       "h1_count": 1,
       "h1": "Electrical Servicesin Dallas-Fort Worth",
-      "word_count": 5882,
+      "word_count": 5856,
       "outlinks": 42,
       "child_count": 0,
       "inbound_count": 3,
@@ -4430,9 +4453,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services",
       "inbound_links": [
-        "https://lexairconditioning.com/dallas-generator-installation",
         "https://lexairconditioning.com/electric-services/generator-installation",
-        "https://lexairconditioning.com/electric-services/backup-generator-installation"
+        "https://lexairconditioning.com/electric-services/backup-generator-installation",
+        "https://lexairconditioning.com/dallas-generator-installation"
       ]
     },
     {
@@ -4446,9 +4469,9 @@
       "has_schema": false,
       "schema_types": [],
       "h1_count": 1,
-      "h1": "Contact Lex - Air Conditioning, Heating, Plumbing, Electrical",
-      "word_count": 1976,
-      "outlinks": 0,
+      "h1": "Get inTouch",
+      "word_count": 2116,
+      "outlinks": 22,
       "child_count": 0,
       "inbound_count": 7,
       "issues": [
@@ -4460,13 +4483,13 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/contact-us",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/premierone-uv-air-purifier",
-        "https://lexairconditioning.com/indoor-air-quality/whole-house-filtration",
-        "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
         "https://lexairconditioning.com/indoor-air-quality/whole-house-air-purifiers",
         "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
+        "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
         "https://lexairconditioning.com/indoor-air-quality/uv-air-purifiers",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/indoor-air-quality/whole-house-filtration",
+        "https://lexairconditioning.com/indoor-air-quality/premierone-uv-air-purifier"
       ]
     },
     {
@@ -4481,7 +4504,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installationin Plano, TX",
-      "word_count": 3443,
+      "word_count": 3417,
       "outlinks": 2,
       "child_count": 0,
       "inbound_count": 3,
@@ -4494,9 +4517,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/plano-ac-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
         "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
     {
@@ -4511,7 +4534,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installation in Dallas, TX",
-      "word_count": 2617,
+      "word_count": 2591,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 3,
@@ -4524,9 +4547,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/dallas-ac-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
         "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
     {
@@ -4541,7 +4564,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installationin Frisco, TX",
-      "word_count": 2139,
+      "word_count": 2113,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 3,
@@ -4554,9 +4577,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/frisco-ac-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
         "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
     {
@@ -4571,7 +4594,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installationin McKinney, TX",
-      "word_count": 3416,
+      "word_count": 3390,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 3,
@@ -4584,9 +4607,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/mckinney-ac-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
         "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
     {
@@ -4601,7 +4624,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "HVAC, Plumbing & Electrical Services inAllen, TX",
-      "word_count": 2287,
+      "word_count": 2261,
       "outlinks": 18,
       "child_count": 0,
       "inbound_count": 3,
@@ -4614,9 +4637,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/allen-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
         "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
     {
@@ -4631,7 +4654,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installationin Richardson, TX",
-      "word_count": 3312,
+      "word_count": 3286,
       "outlinks": 13,
       "child_count": 0,
       "inbound_count": 3,
@@ -4644,9 +4667,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/richardson-ac-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
         "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
     {
@@ -4661,7 +4684,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installationin Carrollton, TX",
-      "word_count": 3252,
+      "word_count": 3226,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 3,
@@ -4678,9 +4701,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/carrollton-ac-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
         "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
     {
@@ -4695,7 +4718,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "The Colony's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 3664,
+      "word_count": 3638,
       "outlinks": 9,
       "child_count": 0,
       "inbound_count": 3,
@@ -4708,9 +4731,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/the-colony-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
         "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
     {
@@ -4725,7 +4748,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Lewisville's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 3860,
+      "word_count": 3834,
       "outlinks": 9,
       "child_count": 0,
       "inbound_count": 3,
@@ -4738,9 +4761,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/lewisville-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
         "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
     {
@@ -4755,7 +4778,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Flower Mound's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 3422,
+      "word_count": 3396,
       "outlinks": 11,
       "child_count": 0,
       "inbound_count": 3,
@@ -4768,9 +4791,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/flower-mound-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
         "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
     {
@@ -4785,7 +4808,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installationin Arlington, TX",
-      "word_count": 2139,
+      "word_count": 2113,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 2,
@@ -4798,8 +4821,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/arlington-ac-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
     {
@@ -4814,7 +4837,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Irving's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 2314,
+      "word_count": 2288,
       "outlinks": 12,
       "child_count": 0,
       "inbound_count": 3,
@@ -4827,9 +4850,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/irving-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
         "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
     {
@@ -4844,7 +4867,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installationin Fort Worth, TX",
-      "word_count": 2155,
+      "word_count": 2129,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 3,
@@ -4857,9 +4880,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/fort-worth-ac-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
         "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
     {
@@ -4874,7 +4897,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Garland's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 2325,
+      "word_count": 2299,
       "outlinks": 12,
       "child_count": 0,
       "inbound_count": 3,
@@ -4887,9 +4910,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/garland-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
         "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
     {
@@ -4904,7 +4927,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installationin Rockwall, TX",
-      "word_count": 3484,
+      "word_count": 3458,
       "outlinks": 10,
       "child_count": 0,
       "inbound_count": 3,
@@ -4917,9 +4940,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/rockwall-ac-installation",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
         "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
     {
@@ -4934,7 +4957,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "HVAC, Plumbing & Electrical Services inMesquite, TX",
-      "word_count": 2297,
+      "word_count": 2271,
       "outlinks": 18,
       "child_count": 0,
       "inbound_count": 2,
@@ -4947,8 +4970,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/mesquite-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
-        "https://lexairconditioning.com/electric-services/electrical-inspection"
+        "https://lexairconditioning.com/electric-services/electrical-inspection",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
     {
@@ -4963,10 +4986,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "GFCI Installation in Carrollton, TX",
-      "word_count": 3523,
+      "word_count": 3497,
       "outlinks": 0,
       "child_count": 0,
-      "inbound_count": 1,
+      "inbound_count": 2,
       "issues": [
         {
           "type": "no_schema",
@@ -4976,7 +4999,96 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services/gfci-services",
       "inbound_links": [
+        "https://lexairconditioning.com/faq",
         "https://lexairconditioning.com/electric-services/electrical-inspection"
+      ]
+    },
+    {
+      "url": "https://lexairconditioning.com/privacy-policy",
+      "parent": "https://lexairconditioning.com/contact-us",
+      "depth": 1,
+      "status_code": 200,
+      "title": "Privacy Policy | Heating & Air in Carrollton, TX",
+      "meta_description": "Privacy Policy. Our heating & cooling experts at Lex Air Conditioning and Heating are ready to lend a hand. Call us for an estimate.",
+      "canonical": "https://www.lexairconditioning.com/privacy-policy/",
+      "has_schema": false,
+      "schema_types": [],
+      "h1_count": 1,
+      "h1": "Privacy Policy",
+      "word_count": 8588,
+      "outlinks": 1,
+      "child_count": 1,
+      "inbound_count": 2,
+      "issues": [
+        {
+          "type": "no_schema",
+          "message": "No schema markup detected"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/privacy-policy",
+      "inbound_links": [
+        "https://lexairconditioning.com/contact",
+        "https://lexairconditioning.com/contact-us"
+      ]
+    },
+    {
+      "url": "https://lexairconditioning.com/highland-park-air-conditioning-and-heating",
+      "parent": "https://lexairconditioning.com/contact-us",
+      "depth": 1,
+      "status_code": 200,
+      "title": "Highland Park Air Conditioning and Heating | Lex Air",
+      "meta_description": "Call our team at Lex Air today at (972) 217-8955 and schedule an appointment for Highland Park air conditioning and heating repair services.",
+      "canonical": "https://www.lexairconditioning.com/highland-park-air-conditioning-and-heating/",
+      "has_schema": false,
+      "schema_types": [],
+      "h1_count": 1,
+      "h1": "Highland Park Air Conditioning and Heating",
+      "word_count": 3275,
+      "outlinks": 9,
+      "child_count": 0,
+      "inbound_count": 3,
+      "issues": [
+        {
+          "type": "no_schema",
+          "message": "No schema markup detected"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/highland-park-air-conditioning-and-heating",
+      "inbound_links": [
+        "https://lexairconditioning.com/contact",
+        "https://lexairconditioning.com/contact-us",
+        "https://lexairconditioning.com/faq"
+      ]
+    },
+    {
+      "url": "https://lexairconditioning.com/faq",
+      "parent": "https://lexairconditioning.com/contact-us",
+      "depth": 1,
+      "status_code": 200,
+      "title": "Common HVAC Questions and Answers | Lex Air Conditioning",
+      "meta_description": "Click here to see some of our most common HVAC questions and answers. For more information, give Lex Air Conditioning and Heating a call!",
+      "canonical": "https://www.lexairconditioning.com/faq/",
+      "has_schema": false,
+      "schema_types": [],
+      "h1_count": 1,
+      "h1": "Frequently AskedQuestions",
+      "word_count": 5447,
+      "outlinks": 47,
+      "child_count": 6,
+      "inbound_count": 2,
+      "issues": [
+        {
+          "type": "no_schema",
+          "message": "No schema markup detected"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/faq",
+      "inbound_links": [
+        "https://lexairconditioning.com/contact",
+        "https://lexairconditioning.com/contact-us"
       ]
     },
     {
@@ -4991,7 +5103,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Commercial Boiler Service Carrollton, TX",
-      "word_count": 4003,
+      "word_count": 3977,
       "outlinks": 14,
       "child_count": 0,
       "inbound_count": 1,
@@ -5023,22 +5135,23 @@
       ],
       "h1_count": 1,
       "h1": "Professional Duct Cleaningin Dallas-Fort Worth",
-      "word_count": 3172,
+      "word_count": 3146,
       "outlinks": 22,
       "child_count": 6,
-      "inbound_count": 8,
+      "inbound_count": 9,
       "issues": [],
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/indoor-air-quality/duct-cleaning",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/premierone-uv-air-purifier",
-        "https://lexairconditioning.com/indoor-air-quality/whole-house-filtration",
+        "https://lexairconditioning.com/indoor-air-quality/whole-house-air-purifiers",
+        "https://lexairconditioning.com/faq",
+        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
         "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
         "https://lexairconditioning.com/indoor-air-quality/humidifiers",
-        "https://lexairconditioning.com/indoor-air-quality/whole-house-air-purifiers",
         "https://lexairconditioning.com/other-hvac-services/commercial-hvac",
         "https://lexairconditioning.com/indoor-air-quality/uv-air-purifiers",
-        "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
+        "https://lexairconditioning.com/indoor-air-quality/whole-house-filtration",
+        "https://lexairconditioning.com/indoor-air-quality/premierone-uv-air-purifier"
       ]
     },
     {
@@ -5053,10 +5166,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Carrollton Commercial Plumbing Services",
-      "word_count": 3471,
+      "word_count": 3445,
       "outlinks": 3,
       "child_count": 0,
-      "inbound_count": 1,
+      "inbound_count": 2,
       "issues": [
         {
           "type": "no_schema",
@@ -5066,6 +5179,7 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/plumbing-service/commercial-plumbing",
       "inbound_links": [
+        "https://lexairconditioning.com/plumbing-service/hydro-jetting",
         "https://lexairconditioning.com/other-hvac-services/commercial-hvac"
       ]
     },
@@ -5081,7 +5195,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Commercial Electrician Carrollton, TX",
-      "word_count": 2920,
+      "word_count": 2894,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -5109,7 +5223,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Standby Generator Installationin Dallas-Fort Worth",
-      "word_count": 4045,
+      "word_count": 4019,
       "outlinks": 12,
       "child_count": 0,
       "inbound_count": 1,
@@ -5137,7 +5251,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Whole Home Surge Protectionin Dallas-Fort Worth",
-      "word_count": 3624,
+      "word_count": 3598,
       "outlinks": 19,
       "child_count": 0,
       "inbound_count": 1,
@@ -5165,10 +5279,10 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Carrollton, TX Smoke Detector Service",
-      "word_count": 3305,
+      "word_count": 3279,
       "outlinks": 0,
       "child_count": 0,
-      "inbound_count": 1,
+      "inbound_count": 2,
       "issues": [
         {
           "type": "no_schema",
@@ -5178,7 +5292,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/electric-services/smoke-detector-service",
       "inbound_links": [
-        "https://lexairconditioning.com/electric-services/emergency-electrician-dallas"
+        "https://lexairconditioning.com/electric-services/emergency-electrician-dallas",
+        "https://lexairconditioning.com/faq"
       ]
     },
     {
@@ -5193,7 +5308,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Smart Thermostat Installationin Dallas-Fort Worth",
-      "word_count": 3595,
+      "word_count": 3569,
       "outlinks": 10,
       "child_count": 0,
       "inbound_count": 1,
@@ -5221,7 +5336,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Ductless Mini-Split ACin Dallas-Fort Worth",
-      "word_count": 3562,
+      "word_count": 3536,
       "outlinks": 16,
       "child_count": 0,
       "inbound_count": 1,
@@ -5238,6 +5353,210 @@
       ]
     },
     {
+      "url": "https://lexairconditioning.com/terms-and-conditions",
+      "parent": "https://lexairconditioning.com/privacy-policy",
+      "depth": 1,
+      "status_code": 200,
+      "title": "terms and conditions",
+      "meta_description": "",
+      "canonical": "https://www.lexairconditioning.com/terms-and-conditions/",
+      "has_schema": false,
+      "schema_types": [],
+      "h1_count": 1,
+      "h1": "Terms & Conditions",
+      "word_count": 8448,
+      "outlinks": 0,
+      "child_count": 0,
+      "inbound_count": 1,
+      "issues": [
+        {
+          "type": "missing_meta",
+          "message": "Missing meta description"
+        },
+        {
+          "type": "no_schema",
+          "message": "No schema markup detected"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/terms-and-conditions",
+      "inbound_links": [
+        "https://lexairconditioning.com/privacy-policy"
+      ]
+    },
+    {
+      "url": "https://lexairconditioning.com/seer-savings-calculator",
+      "parent": "https://lexairconditioning.com/faq",
+      "depth": 1,
+      "status_code": 200,
+      "title": "SEER Energy Savings Calculator | HVAC Efficiency Calculator",
+      "meta_description": "Our SEER energy savings calculator provides a rough estimate based on local energy costs and average cooling hours in the DFW region.",
+      "canonical": "https://www.lexairconditioning.com/seer-savings-calculator/",
+      "has_schema": false,
+      "schema_types": [],
+      "h1_count": 1,
+      "h1": "SEER Savings Calculatorfor Dallas-Fort Worth",
+      "word_count": 3356,
+      "outlinks": 15,
+      "child_count": 2,
+      "inbound_count": 1,
+      "issues": [
+        {
+          "type": "no_schema",
+          "message": "No schema markup detected"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/seer-savings-calculator",
+      "inbound_links": [
+        "https://lexairconditioning.com/faq"
+      ]
+    },
+    {
+      "url": "https://lexairconditioning.com/shop",
+      "parent": "https://lexairconditioning.com/faq",
+      "depth": 1,
+      "status_code": 200,
+      "title": "Shop Quality HVAC Air Filters & Get Instant Quotes | Lex Air Conditioning",
+      "meta_description": "Purchase high-quality air filters for your HVAC system at Lex Air Conditioning. Get instant quotes for new HVAC systems, water heaters, generators, and more\u2014all in one convenient shop. Keep your home comfortable and efficient year-round!",
+      "canonical": "https://www.lexairconditioning.com/shop/",
+      "has_schema": false,
+      "schema_types": [],
+      "h1_count": 0,
+      "h1": "",
+      "word_count": 1776,
+      "outlinks": 0,
+      "child_count": 0,
+      "inbound_count": 1,
+      "issues": [
+        {
+          "type": "no_schema",
+          "message": "No schema markup detected"
+        },
+        {
+          "type": "missing_h1",
+          "message": "No H1 tag found"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/shop",
+      "inbound_links": [
+        "https://lexairconditioning.com/faq"
+      ]
+    },
+    {
+      "url": "https://lexairconditioning.com/plumbing-service/tankless-water-heater-services",
+      "parent": "https://lexairconditioning.com/faq",
+      "depth": 2,
+      "status_code": 200,
+      "title": "Tankless Water Heater Services in Carrollton, TX | Lex Air",
+      "meta_description": "To schedule an appointment for your tankless water heater services, call Lex Air Conditioning & Heating at (972) 217-8955 today!",
+      "canonical": "https://www.lexairconditioning.com/plumbing-service/tankless-water-heater-services/",
+      "has_schema": false,
+      "schema_types": [],
+      "h1_count": 1,
+      "h1": "Tankless Water Heater Servicesin Dallas-Fort Worth",
+      "word_count": 3563,
+      "outlinks": 19,
+      "child_count": 4,
+      "inbound_count": 1,
+      "issues": [
+        {
+          "type": "no_schema",
+          "message": "No schema markup detected"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/plumbing-service/tankless-water-heater-services",
+      "inbound_links": [
+        "https://lexairconditioning.com/faq"
+      ]
+    },
+    {
+      "url": "https://lexairconditioning.com/plumbing-service/hydro-jetting",
+      "parent": "https://lexairconditioning.com/faq",
+      "depth": 2,
+      "status_code": 200,
+      "title": "Hydro Jetting Services Dallas-Fort Worth | Drain Cleaning | LEX",
+      "meta_description": "Professional hydro jetting in DFW. Clear stubborn clogs, tree roots & grease buildup. Same-day service. Licensed plumbers. Call (972) 466-1917!",
+      "canonical": "https://www.lexairconditioning.com/plumbing-service/hydro-jetting/",
+      "has_schema": false,
+      "schema_types": [],
+      "h1_count": 1,
+      "h1": "Hydro Jetting Servicesin Dallas-Fort Worth",
+      "word_count": 3600,
+      "outlinks": 19,
+      "child_count": 1,
+      "inbound_count": 1,
+      "issues": [
+        {
+          "type": "no_schema",
+          "message": "No schema markup detected"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/plumbing-service/hydro-jetting",
+      "inbound_links": [
+        "https://lexairconditioning.com/faq"
+      ]
+    },
+    {
+      "url": "https://lexairconditioning.com/plumbing-service/toilet-repair-and-installation",
+      "parent": "https://lexairconditioning.com/faq",
+      "depth": 2,
+      "status_code": 200,
+      "title": "Carrollton Toilet Repair and Installation Services | Lex Air",
+      "meta_description": "At Lex Air, we provide residents of Carrollton and the surrounding areas with quality toilet repair and installation services. Call today!",
+      "canonical": "https://www.lexairconditioning.com/plumbing-service/toilet-repair-and-installation/",
+      "has_schema": false,
+      "schema_types": [],
+      "h1_count": 1,
+      "h1": "Toilet Repair & Installationin Dallas-Fort Worth",
+      "word_count": 3523,
+      "outlinks": 0,
+      "child_count": 0,
+      "inbound_count": 1,
+      "issues": [
+        {
+          "type": "no_schema",
+          "message": "No schema markup detected"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/plumbing-service/toilet-repair-and-installation",
+      "inbound_links": [
+        "https://lexairconditioning.com/faq"
+      ]
+    },
+    {
+      "url": "https://lexairconditioning.com/plumbing-service/garbage-disposal-repair",
+      "parent": "https://lexairconditioning.com/faq",
+      "depth": 2,
+      "status_code": 200,
+      "title": "Garbage Disposal Repair in Carrollton, TX | Lex Air",
+      "meta_description": "For professional garbage disposal repair and replacement in Carrollton, TX and the surrounding areas, call Lex Air at (972) 217-8955.",
+      "canonical": "https://www.lexairconditioning.com/plumbing-service/garbage-disposal-repair/",
+      "has_schema": false,
+      "schema_types": [],
+      "h1_count": 1,
+      "h1": "Garbage Disposal Repair in Carrollton, TX",
+      "word_count": 2949,
+      "outlinks": 3,
+      "child_count": 0,
+      "inbound_count": 1,
+      "issues": [
+        {
+          "type": "no_schema",
+          "message": "No schema markup detected"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/plumbing-service/garbage-disposal-repair",
+      "inbound_links": [
+        "https://lexairconditioning.com/faq"
+      ]
+    },
+    {
       "url": "https://lexairconditioning.com/locations/coppell",
       "parent": "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
       "depth": 2,
@@ -5249,7 +5568,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Installation in Coppell, TX",
-      "word_count": 2860,
+      "word_count": 2834,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 1,
@@ -5277,7 +5596,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Addison's TrustedHVAC, Plumbing & ElectricalExperts",
-      "word_count": 3536,
+      "word_count": 3510,
       "outlinks": 9,
       "child_count": 0,
       "inbound_count": 1,
@@ -5309,7 +5628,7 @@
       ],
       "h1_count": 1,
       "h1": "PREMIERone UV Air Purifier",
-      "word_count": 3236,
+      "word_count": 3210,
       "outlinks": 6,
       "child_count": 1,
       "inbound_count": 1,
@@ -5336,7 +5655,7 @@
       ],
       "h1_count": 1,
       "h1": "PREMIERone UV Air Purifier",
-      "word_count": 3236,
+      "word_count": 3210,
       "outlinks": 6,
       "child_count": 0,
       "inbound_count": 1,
@@ -5359,7 +5678,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Humidity Control Services inDallas-Fort Worth",
-      "word_count": 3361,
+      "word_count": 3335,
       "outlinks": 37,
       "child_count": 8,
       "inbound_count": 5,
@@ -5372,11 +5691,11 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifers",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/premierone-uv-air-purifier",
-        "https://lexairconditioning.com/indoor-air-quality/whole-house-filtration",
-        "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
         "https://lexairconditioning.com/indoor-air-quality/whole-house-air-purifiers",
-        "https://lexairconditioning.com/indoor-air-quality/uv-air-purifiers"
+        "https://lexairconditioning.com/indoor-air-quality/duct-cleaning",
+        "https://lexairconditioning.com/indoor-air-quality/uv-air-purifiers",
+        "https://lexairconditioning.com/indoor-air-quality/whole-house-filtration",
+        "https://lexairconditioning.com/indoor-air-quality/premierone-uv-air-purifier"
       ]
     },
     {
@@ -5391,7 +5710,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Spring AC Tune-Ups in DFW |Beat the Summer Rush",
-      "word_count": 2877,
+      "word_count": 2851,
       "outlinks": 29,
       "child_count": 0,
       "inbound_count": 1,
@@ -5405,6 +5724,206 @@
       "redirected_to": "https://www.lexairconditioning.com/air-conditioning/ac-tune-ups",
       "inbound_links": [
         "https://lexairconditioning.com/indoor-air-quality/duct-cleaning"
+      ]
+    },
+    {
+      "url": "https://lexairconditioning.com/heating/furnace-installation",
+      "parent": "https://lexairconditioning.com/seer-savings-calculator",
+      "depth": 2,
+      "status_code": 404,
+      "title": "",
+      "meta_description": "",
+      "canonical": "",
+      "has_schema": false,
+      "schema_types": [],
+      "h1_count": 0,
+      "h1": "",
+      "word_count": 0,
+      "outlinks": 0,
+      "child_count": 0,
+      "inbound_count": 1,
+      "issues": [
+        {
+          "type": "broken",
+          "message": "Page returns 404"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/heating/furnace-installation",
+      "inbound_links": [
+        "https://lexairconditioning.com/seer-savings-calculator"
+      ]
+    },
+    {
+      "url": "https://lexairconditioning.com/hvac-financing",
+      "parent": "https://lexairconditioning.com/seer-savings-calculator",
+      "depth": 1,
+      "status_code": 404,
+      "title": "",
+      "meta_description": "",
+      "canonical": "",
+      "has_schema": false,
+      "schema_types": [],
+      "h1_count": 0,
+      "h1": "",
+      "word_count": 0,
+      "outlinks": 0,
+      "child_count": 0,
+      "inbound_count": 1,
+      "issues": [
+        {
+          "type": "broken",
+          "message": "Page returns 404"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/hvac-financing",
+      "inbound_links": [
+        "https://lexairconditioning.com/seer-savings-calculator"
+      ]
+    },
+    {
+      "url": "https://lexairconditioning.com/water-heater-repair",
+      "parent": "https://lexairconditioning.com/plumbing-service/tankless-water-heater-services",
+      "depth": 1,
+      "status_code": 404,
+      "title": "",
+      "meta_description": "",
+      "canonical": "",
+      "has_schema": false,
+      "schema_types": [],
+      "h1_count": 0,
+      "h1": "",
+      "word_count": 0,
+      "outlinks": 0,
+      "child_count": 0,
+      "inbound_count": 1,
+      "issues": [
+        {
+          "type": "broken",
+          "message": "Page returns 404"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/water-heater-repair",
+      "inbound_links": [
+        "https://lexairconditioning.com/plumbing-service/tankless-water-heater-services"
+      ]
+    },
+    {
+      "url": "https://lexairconditioning.com/drain-cleaning",
+      "parent": "https://lexairconditioning.com/plumbing-service/tankless-water-heater-services",
+      "depth": 1,
+      "status_code": 404,
+      "title": "",
+      "meta_description": "",
+      "canonical": "",
+      "has_schema": false,
+      "schema_types": [],
+      "h1_count": 0,
+      "h1": "",
+      "word_count": 0,
+      "outlinks": 0,
+      "child_count": 0,
+      "inbound_count": 1,
+      "issues": [
+        {
+          "type": "broken",
+          "message": "Page returns 404"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/drain-cleaning",
+      "inbound_links": [
+        "https://lexairconditioning.com/plumbing-service/tankless-water-heater-services"
+      ]
+    },
+    {
+      "url": "https://lexairconditioning.com/sewer-line-repair",
+      "parent": "https://lexairconditioning.com/plumbing-service/tankless-water-heater-services",
+      "depth": 1,
+      "status_code": 200,
+      "title": "Sewer Line Repair & Replacement Dallas-Fort Worth | LEX",
+      "meta_description": "",
+      "canonical": "https://www.lexairconditioning.com/plumbing-service/sewer-line-repair-and-replacement/",
+      "has_schema": true,
+      "schema_types": [
+        "Service",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "h1_count": 1,
+      "h1": "Sewer Line Repair & Replacementin Dallas-Fort Worth",
+      "word_count": 4074,
+      "outlinks": 15,
+      "child_count": 0,
+      "inbound_count": 1,
+      "issues": [
+        {
+          "type": "missing_meta",
+          "message": "Missing meta description"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/plumbing-service/sewer-line-repair-and-replacement",
+      "inbound_links": [
+        "https://lexairconditioning.com/plumbing-service/tankless-water-heater-services"
+      ]
+    },
+    {
+      "url": "https://lexairconditioning.com/plumbing-repair",
+      "parent": "https://lexairconditioning.com/plumbing-service/tankless-water-heater-services",
+      "depth": 1,
+      "status_code": 404,
+      "title": "",
+      "meta_description": "",
+      "canonical": "",
+      "has_schema": false,
+      "schema_types": [],
+      "h1_count": 0,
+      "h1": "",
+      "word_count": 0,
+      "outlinks": 0,
+      "child_count": 0,
+      "inbound_count": 1,
+      "issues": [
+        {
+          "type": "broken",
+          "message": "Page returns 404"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/plumbing-repair",
+      "inbound_links": [
+        "https://lexairconditioning.com/plumbing-service/tankless-water-heater-services"
+      ]
+    },
+    {
+      "url": "https://lexairconditioning.com/drain-service",
+      "parent": "https://lexairconditioning.com/plumbing-service/hydro-jetting",
+      "depth": 1,
+      "status_code": 200,
+      "title": "Professional Drain Service in Carrollton, TX | Lex Air Conditioning",
+      "meta_description": "For professional drain service you can rely on in Carrollton, TX and the surrounding areas, give us a call at (972) 217-8955 today.",
+      "canonical": "https://www.lexairconditioning.com/plumbing-service/drain-service/",
+      "has_schema": false,
+      "schema_types": [],
+      "h1_count": 1,
+      "h1": "Drain Cleaning & Repairin Dallas-Fort Worth",
+      "word_count": 3313,
+      "outlinks": 1,
+      "child_count": 0,
+      "inbound_count": 1,
+      "issues": [
+        {
+          "type": "no_schema",
+          "message": "No schema markup detected"
+        }
+      ],
+      "was_redirected": true,
+      "redirected_to": "https://www.lexairconditioning.com/plumbing-service/drain-service",
+      "inbound_links": [
+        "https://lexairconditioning.com/plumbing-service/hydro-jetting"
       ]
     },
     {
@@ -5423,7 +5942,7 @@
       ],
       "h1_count": 1,
       "h1": "PREMIERone UV Air Purifier",
-      "word_count": 3236,
+      "word_count": 3210,
       "outlinks": 6,
       "child_count": 0,
       "inbound_count": 4,
@@ -5431,8 +5950,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/indoor-air-quality/premierone-uv-air-purifier",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/whole-house-air-purifiers",
         "https://lexairconditioning.com/indoor-air-quality/premierone-uv-air-purifier",
+        "https://lexairconditioning.com/indoor-air-quality/whole-house-air-purifiers",
         "https://lexairconditioning.com/indoor-air-quality/whole-house-filtration",
         "https://lexairconditioning.com/indoor-air-quality/uv-air-purifiers"
       ]
@@ -5449,7 +5968,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Whole-House Humidifiersin Dallas-Fort Worth",
-      "word_count": 4034,
+      "word_count": 4008,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 2,
@@ -5462,8 +5981,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/whole-house-humidifiers",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers"
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers"
       ]
     },
     {
@@ -5478,7 +5997,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Whole-House Dehumidifiersin Dallas-Fort Worth",
-      "word_count": 4169,
+      "word_count": 4143,
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 2,
@@ -5491,8 +6010,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/whole-house-dehumidifiers",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers"
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers"
       ]
     },
     {
@@ -5507,7 +6026,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Steam Humidifier",
-      "word_count": 1917,
+      "word_count": 1891,
       "outlinks": 13,
       "child_count": 7,
       "inbound_count": 11,
@@ -5524,16 +6043,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/systems/healthy-home/air-quality/steam-humidifier",
       "inbound_links": [
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-power-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
         "https://lexairconditioning.com/systems/healthy-home/air-quality/steam-humidifier",
         "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
-        "https://lexairconditioning.com/systems/healthy-home",
         "https://lexairconditioning.com/indoor-air-quality/humidifiers",
         "https://lexairconditioning.com/systems/healthy-home/air-quality/perfect-fit",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack"
+        "https://lexairconditioning.com/systems/healthy-home/air-quality",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-power-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects"
       ]
     },
     {
@@ -5548,7 +6067,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "THUMD Bypass Humidifier",
-      "word_count": 2097,
+      "word_count": 2071,
       "outlinks": 13,
       "child_count": 0,
       "inbound_count": 11,
@@ -5565,16 +6084,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier",
       "inbound_links": [
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-power-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
         "https://lexairconditioning.com/systems/healthy-home/air-quality/steam-humidifier",
         "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
-        "https://lexairconditioning.com/systems/healthy-home",
         "https://lexairconditioning.com/indoor-air-quality/humidifiers",
         "https://lexairconditioning.com/systems/healthy-home/air-quality/perfect-fit",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack"
+        "https://lexairconditioning.com/systems/healthy-home/air-quality",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-power-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects"
       ]
     },
     {
@@ -5589,7 +6108,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "THUMD Power Humidifier",
-      "word_count": 2015,
+      "word_count": 1989,
       "outlinks": 13,
       "child_count": 0,
       "inbound_count": 11,
@@ -5606,16 +6125,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/systems/healthy-home/air-quality/thumd-power-humidifier",
       "inbound_links": [
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-power-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
         "https://lexairconditioning.com/systems/healthy-home/air-quality/steam-humidifier",
         "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
-        "https://lexairconditioning.com/systems/healthy-home",
         "https://lexairconditioning.com/indoor-air-quality/humidifiers",
         "https://lexairconditioning.com/systems/healthy-home/air-quality/perfect-fit",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack"
+        "https://lexairconditioning.com/systems/healthy-home/air-quality",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-power-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects"
       ]
     },
     {
@@ -5634,7 +6153,7 @@
       ],
       "h1_count": 1,
       "h1": "PREMIERone UV Air Purifier",
-      "word_count": 3236,
+      "word_count": 3210,
       "outlinks": 6,
       "child_count": 0,
       "inbound_count": 3,
@@ -5642,8 +6161,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/indoor-air-quality/premierone-uv-air-purifier",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
         "https://lexairconditioning.com/indoor-air-quality/humidifiers",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
         "https://lexairconditioning.com/indoor-air-quality/insulation-installation-specialists"
       ]
     },
@@ -5663,7 +6182,7 @@
       ],
       "h1_count": 1,
       "h1": "Insulation Installationin Dallas-Fort Worth",
-      "word_count": 3382,
+      "word_count": 3356,
       "outlinks": 22,
       "child_count": 2,
       "inbound_count": 2,
@@ -5671,8 +6190,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/indoor-air-quality/insulation-installation-specialists",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers"
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers"
       ]
     },
     {
@@ -5687,7 +6206,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "AC Repair Arlington, TX",
-      "word_count": 3027,
+      "word_count": 3001,
       "outlinks": 10,
       "child_count": 0,
       "inbound_count": 2,
@@ -5700,8 +6219,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/ac-repair-arlington-tx",
       "inbound_links": [
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers",
-        "https://lexairconditioning.com/indoor-air-quality/humidifiers"
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers",
+        "https://lexairconditioning.com/indoor-air-quality/humidifiers-dehumidifiers"
       ]
     },
     {
@@ -5716,7 +6235,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Trane Indoor Air Quality Systems",
-      "word_count": 3276,
+      "word_count": 3250,
       "outlinks": 23,
       "child_count": 2,
       "inbound_count": 10,
@@ -5729,16 +6248,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/systems/healthy-home",
       "inbound_links": [
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-power-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
         "https://lexairconditioning.com/systems/healthy-home/air-quality/steam-humidifier",
         "https://lexairconditioning.com/systems/healthy-home/comfort-link-ii",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
-        "https://lexairconditioning.com/systems/healthy-home",
         "https://lexairconditioning.com/systems/healthy-home/air-quality/perfect-fit",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier"
+        "https://lexairconditioning.com/systems/healthy-home/air-quality",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-power-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
+        "https://lexairconditioning.com/systems/healthy-home"
       ]
     },
     {
@@ -5753,7 +6272,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Air Quality",
-      "word_count": 2298,
+      "word_count": 2272,
       "outlinks": 32,
       "child_count": 0,
       "inbound_count": 9,
@@ -5766,15 +6285,15 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/systems/healthy-home/air-quality",
       "inbound_links": [
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/steam-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/perfect-fit",
         "https://lexairconditioning.com/systems/healthy-home/air-quality",
         "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-power-humidifier",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/steam-humidifier",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
-        "https://lexairconditioning.com/systems/healthy-home",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/perfect-fit",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier"
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
+        "https://lexairconditioning.com/systems/healthy-home"
       ]
     },
     {
@@ -5789,7 +6308,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "CleanEffects\u2122",
-      "word_count": 2393,
+      "word_count": 2367,
       "outlinks": 13,
       "child_count": 1,
       "inbound_count": 9,
@@ -5806,15 +6325,15 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
       "inbound_links": [
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/steam-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/perfect-fit",
         "https://lexairconditioning.com/systems/healthy-home/air-quality",
         "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-power-humidifier",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/steam-humidifier",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
-        "https://lexairconditioning.com/systems/healthy-home",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/perfect-fit",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier"
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
+        "https://lexairconditioning.com/systems/healthy-home"
       ]
     },
     {
@@ -5829,7 +6348,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Perfect Fit\u2122",
-      "word_count": 2066,
+      "word_count": 2040,
       "outlinks": 13,
       "child_count": 0,
       "inbound_count": 9,
@@ -5846,15 +6365,15 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/systems/healthy-home/air-quality/perfect-fit",
       "inbound_links": [
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/steam-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/perfect-fit",
         "https://lexairconditioning.com/systems/healthy-home/air-quality",
         "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-power-humidifier",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/steam-humidifier",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
-        "https://lexairconditioning.com/systems/healthy-home",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/perfect-fit",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier"
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
+        "https://lexairconditioning.com/systems/healthy-home"
       ]
     },
     {
@@ -5869,7 +6388,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "SlimFit Filter Rack",
-      "word_count": 2009,
+      "word_count": 1983,
       "outlinks": 13,
       "child_count": 0,
       "inbound_count": 9,
@@ -5886,15 +6405,15 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
       "inbound_links": [
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/steam-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/perfect-fit",
         "https://lexairconditioning.com/systems/healthy-home/air-quality",
         "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-power-humidifier",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/steam-humidifier",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
-        "https://lexairconditioning.com/systems/healthy-home",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/perfect-fit",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier"
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
+        "https://lexairconditioning.com/systems/healthy-home"
       ]
     },
     {
@@ -5909,7 +6428,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "FreshEffects\u2122",
-      "word_count": 2138,
+      "word_count": 2112,
       "outlinks": 13,
       "child_count": 0,
       "inbound_count": 9,
@@ -5926,15 +6445,15 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
       "inbound_links": [
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/steam-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/perfect-fit",
         "https://lexairconditioning.com/systems/healthy-home/air-quality",
         "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-power-humidifier",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/steam-humidifier",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
-        "https://lexairconditioning.com/systems/healthy-home",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/perfect-fit",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier"
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
+        "https://lexairconditioning.com/systems/healthy-home"
       ]
     },
     {
@@ -5974,11 +6493,11 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/wp-content/uploads/2022/01/TRANE-IAQ.pdf",
       "inbound_links": [
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-power-humidifier",
         "https://lexairconditioning.com/systems/healthy-home/air-quality/steam-humidifier",
         "https://lexairconditioning.com/systems/healthy-home/air-quality/perfect-fit",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier"
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-power-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/thumd-bypass-humidifier",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/fresh-effects"
       ]
     },
     {
@@ -5993,7 +6512,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Spring AC Tune-Ups in DFW |Beat the Summer Rush",
-      "word_count": 2877,
+      "word_count": 2851,
       "outlinks": 29,
       "child_count": 0,
       "inbound_count": 1,
@@ -6021,7 +6540,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "Humidity Control Services inDallas-Fort Worth",
-      "word_count": 3361,
+      "word_count": 3335,
       "outlinks": 37,
       "child_count": 0,
       "inbound_count": 1,
@@ -6049,7 +6568,7 @@
       "schema_types": [],
       "h1_count": 1,
       "h1": "ComfortLink\u2122 II",
-      "word_count": 2722,
+      "word_count": 2696,
       "outlinks": 4,
       "child_count": 0,
       "inbound_count": 2,
@@ -6144,8 +6663,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/wp-content/uploads/2022/01/Trane-CleanEffects.pdf",
       "inbound_links": [
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects",
-        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack"
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/slimfit-filter-rack",
+        "https://lexairconditioning.com/systems/healthy-home/air-quality/cleaneffects"
       ]
     }
   ]
