@@ -1,28 +1,21 @@
 {
   "summary": {
-    "crawled_at": "2026-04-27T10:22:48.303035+00:00",
+    "crawled_at": "2026-04-28T10:20:41.882308+00:00",
     "base_url": "https://lexairconditioning.com",
     "total_pages": 1,
-    "crawl_duration_seconds": 10.6,
+    "crawl_duration_seconds": 0.5,
     "max_depth": 0,
-    "issue_counts": {
-      "request_error": 1
-    },
-    "total_issues": 1,
-    "pages_with_issues": 1,
-    "crawl_errors": [
-      {
-        "url": "https://lexairconditioning.com/",
-        "error": "HTTPSConnectionPool(host='lexairconditioning.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='lexairconditioning.com', port=443) at 0x7f6672cb2ed0>, 'Connection to lexairconditioning.com timed out. (connect timeout=10)'))"
-      }
-    ]
+    "issue_counts": {},
+    "total_issues": 0,
+    "pages_with_issues": 0,
+    "crawl_errors": []
   },
   "pages": [
     {
       "url": "https://lexairconditioning.com/",
       "parent": null,
       "depth": 0,
-      "status_code": 0,
+      "status_code": 403,
       "title": "",
       "meta_description": "",
       "canonical": "",
@@ -34,12 +27,7 @@
       "outlinks": 0,
       "child_count": 0,
       "inbound_count": 0,
-      "issues": [
-        {
-          "type": "request_error",
-          "message": "HTTPSConnectionPool(host='lexairconditioning.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='lexairconditioning.com', port=443) at 0x7f6672cb2ed0>, 'Connection to lexairconditioning.com timed out. (connect timeout=10)'))"
-        }
-      ],
+      "issues": [],
       "was_redirected": false,
       "redirected_to": null,
       "inbound_links": []
