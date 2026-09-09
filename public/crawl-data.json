@@ -1,9 +1,9 @@
 {
   "summary": {
-    "crawled_at": "2026-09-08T12:46:01.881198+00:00",
+    "crawled_at": "2026-09-09T12:51:12.435232+00:00",
     "base_url": "https://lexairconditioning.com",
     "total_pages": 26,
-    "crawl_duration_seconds": 45.3,
+    "crawl_duration_seconds": 49.7,
     "max_depth": 3,
     "issue_counts": {
       "no_schema": 14,
@@ -22,7 +22,7 @@
       "depth": 0,
       "status_code": 200,
       "title": "Lex Cooling, Heating Plumbing & Electrical | Expert HVAC, Plumbing, Drains & Electrical Services Near Dallas-Fort Worth",
-      "meta_description": "For over two decades, LEX Air Conditioning and Heating has been dedicated to providing high-quality and affordable HVAC, plumbing, and electrical services to the Dallas-Fort Worth community.",
+      "meta_description": "Lex Air Conditioning and Heating provides affordable HVAC, plumbing, drain and electrical services for homes right across the Dallas-Fort Worth metro.",
       "canonical": "https://www.lexairconditioning.com/",
       "has_schema": false,
       "schema_types": [],
@@ -47,8 +47,8 @@
       "parent": "https://lexairconditioning.com/",
       "depth": 2,
       "status_code": 200,
-      "title": "Premier Air Conditioning Repair In Dallas-Fort Worth Metro",
-      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in Air Conditioning Repair in Dallas-Fort Worth Metro | Backed by Local Reviews | Upfront Pricing |",
+      "title": "Top-Rated Air Conditioning Repair In Dallas-Fort Worth Metro",
+      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in Air Conditioning Repair in Dallas-Fort Worth Metro | Same-Day Service Availability | Affordable,",
       "canonical": "https://www.lexairconditioning.com/hvac-services/air-conditioning-repair/",
       "has_schema": true,
       "schema_types": [
@@ -72,8 +72,8 @@
       "parent": "https://lexairconditioning.com/",
       "depth": 2,
       "status_code": 200,
-      "title": "Local Air Conditioning Installation In Dallas-Fort Worth Metro",
-      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in Air Conditioning Installation in Dallas-Fort Worth Metro | Same-Day Service Availability |",
+      "title": "Premier Air Conditioning Installation In Dallas-Fort Worth Metro",
+      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in Air Conditioning Installation in Dallas-Fort Worth Metro | Backed by Local Reviews | Upfront",
       "canonical": "https://www.lexairconditioning.com/hvac-services/air-conditioning-installation/",
       "has_schema": true,
       "schema_types": [
@@ -97,8 +97,8 @@
       "parent": "https://lexairconditioning.com/",
       "depth": 2,
       "status_code": 200,
-      "title": "Top-Rated Air Conditioning Maintenance In Dallas-Fort Worth Metro",
-      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in Air Conditioning Maintenance in Dallas-Fort Worth Metro | 100% Satisfaction Guarantee |",
+      "title": "Save On Air Conditioning Maintenance In Dallas-Fort Worth Metro",
+      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in Air Conditioning Maintenance in Dallas-Fort Worth Metro | 100% Satisfaction Guarantee | Upfront",
       "canonical": "https://www.lexairconditioning.com/hvac-services/air-conditioning-maintenance/",
       "has_schema": true,
       "schema_types": [
@@ -150,8 +150,8 @@
       "parent": "https://lexairconditioning.com/",
       "depth": 2,
       "status_code": 200,
-      "title": "Top-Rated General Heating Repair In Dallas-Fort Worth Metro",
-      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in General Heating Repair in Dallas-Fort Worth Metro | Backed by Local Reviews | Upfront Pricing |",
+      "title": "Expert General Heating Repair In Dallas-Fort Worth Metro",
+      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in General Heating Repair in Dallas-Fort Worth Metro | 100% Satisfaction Guarantee | Upfront",
       "canonical": "https://www.lexairconditioning.com/hvac-services/heating-repair/",
       "has_schema": true,
       "schema_types": [
@@ -175,8 +175,8 @@
       "parent": "https://lexairconditioning.com/",
       "depth": 2,
       "status_code": 200,
-      "title": "Top-Rated General Heating Installation In Dallas-Fort Worth Metro",
-      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in General Heating Installation in Dallas-Fort Worth Metro | Same-Day Service Availability |",
+      "title": "Premier General Heating Installation In Dallas-Fort Worth Metro",
+      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in General Heating Installation in Dallas-Fort Worth Metro | 100% Satisfaction Guarantee | Upfront",
       "canonical": "https://www.lexairconditioning.com/hvac-services/heating-installation/",
       "has_schema": true,
       "schema_types": [
@@ -200,8 +200,8 @@
       "parent": "https://lexairconditioning.com/",
       "depth": 2,
       "status_code": 200,
-      "title": "Expert General Heating Maintenance In Dallas-Fort Worth Metro",
-      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in General Heating Maintenance in Dallas-Fort Worth Metro | Same-Day Service Availability |",
+      "title": "Best General Heating Maintenance In Dallas-Fort Worth Metro",
+      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in General Heating Maintenance in Dallas-Fort Worth Metro | 100% Satisfaction Guarantee | Upfront",
       "canonical": "https://www.lexairconditioning.com/hvac-services/heating-maintenance/",
       "has_schema": true,
       "schema_types": [
@@ -225,8 +225,8 @@
       "parent": "https://lexairconditioning.com/",
       "depth": 2,
       "status_code": 200,
-      "title": "Top-Rated Plumbing Repair In Dallas-Fort Worth Metro",
-      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in Plumbing Repair in Dallas-Fort Worth Metro | Same-Day Service Availability | Affordable,",
+      "title": "Best Plumbing Repair In Dallas-Fort Worth Metro",
+      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in Plumbing Repair in Dallas-Fort Worth Metro | Same-Day Service Availability | Upfront Pricing |",
       "canonical": "https://www.lexairconditioning.com/plumbing-services/plumbing-repair/",
       "has_schema": true,
       "schema_types": [
@@ -250,8 +250,8 @@
       "parent": "https://lexairconditioning.com/",
       "depth": 2,
       "status_code": 200,
-      "title": "Save On Plumber Installation In Dallas-Fort Worth Metro",
-      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in Plumber Installation in Dallas-Fort Worth Metro | 100% Satisfaction Guarantee | Financing",
+      "title": "Expert Plumber Installation In Dallas-Fort Worth Metro",
+      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in Plumber Installation in Dallas-Fort Worth Metro | Same-Day Service Availability | Financing",
       "canonical": "https://www.lexairconditioning.com/plumbing-services/plumbing-installation/",
       "has_schema": true,
       "schema_types": [
@@ -275,8 +275,8 @@
       "parent": "https://lexairconditioning.com/",
       "depth": 2,
       "status_code": 200,
-      "title": "Premier Plumbing Inspection Service In Dallas-Fort Worth Metro",
-      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in Plumbing Inspection Service in Dallas-Fort Worth Metro | Backed by Local Reviews | Upfront",
+      "title": "Save On Plumbing Inspection Service In Dallas-Fort Worth Metro",
+      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in Plumbing Inspection Service in Dallas-Fort Worth Metro | Same-Day Service Availability |",
       "canonical": "https://www.lexairconditioning.com/plumbing-services/plumbing-inspection/",
       "has_schema": true,
       "schema_types": [
@@ -328,7 +328,7 @@
       "parent": "https://lexairconditioning.com/",
       "depth": 2,
       "status_code": 200,
-      "title": "Top-Rated General Electrical Repair In Dallas-Fort Worth Metro",
+      "title": "Best General Electrical Repair In Dallas-Fort Worth Metro",
       "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in General Electrical Repair in Dallas-Fort Worth Metro | Backed by Local Reviews | Financing",
       "canonical": "https://www.lexairconditioning.com/electrical-services/electrical-repair/",
       "has_schema": true,
@@ -353,8 +353,8 @@
       "parent": "https://lexairconditioning.com/",
       "depth": 2,
       "status_code": 200,
-      "title": "Save On Electrical Installation In Dallas-Fort Worth Metro",
-      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in Electrical Installation in Dallas-Fort Worth Metro | Backed by Local Reviews | Financing",
+      "title": "Top-Rated Electrical Installation In Dallas-Fort Worth Metro",
+      "meta_description": "Lex Cooling, Heating Plumbing & Electrical specializes in Electrical Installation in Dallas-Fort Worth Metro | 100% Satisfaction Guarantee | Affordable,",
       "canonical": "https://www.lexairconditioning.com/electrical-services/electrical-installation/",
       "has_schema": true,
       "schema_types": [
@@ -454,16 +454,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/terms-and-conditions",
       "inbound_links": [
+        "https://lexairconditioning.com/white-glove-rewards-terms-conditions",
+        "https://lexairconditioning.com/your-privacy-choices",
+        "https://lexairconditioning.com/hvac-services/air-conditioning-maintenance",
         "https://lexairconditioning.com/hvac-services/heating-installation",
-        "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us/reviews",
-        "https://lexairconditioning.com/hvac-services/air-conditioning-installation",
-        "https://lexairconditioning.com/white-glove-rewards",
-        "https://lexairconditioning.com/offers",
-        "https://lexairconditioning.com/hvac-services",
-        "https://lexairconditioning.com/privacy-policy",
+        "https://lexairconditioning.com/terms-and-conditions",
         "https://lexairconditioning.com/about-us/maintenance-plan",
-        "https://lexairconditioning.com/electrical-services/electrical-installation"
+        "https://lexairconditioning.com/plumbing-services/plumbing-repair",
+        "https://lexairconditioning.com/about-us/reviews",
+        "https://lexairconditioning.com/white-glove-rewards",
+        "https://lexairconditioning.com/hvac-services/air-conditioning-installation"
       ]
     },
     {
@@ -495,16 +495,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/privacy-policy",
       "inbound_links": [
+        "https://lexairconditioning.com/white-glove-rewards-terms-conditions",
+        "https://lexairconditioning.com/your-privacy-choices",
+        "https://lexairconditioning.com/hvac-services/air-conditioning-maintenance",
         "https://lexairconditioning.com/hvac-services/heating-installation",
-        "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us/reviews",
-        "https://lexairconditioning.com/hvac-services/air-conditioning-installation",
-        "https://lexairconditioning.com/white-glove-rewards",
-        "https://lexairconditioning.com/offers",
-        "https://lexairconditioning.com/hvac-services",
-        "https://lexairconditioning.com/privacy-policy",
+        "https://lexairconditioning.com/terms-and-conditions",
         "https://lexairconditioning.com/about-us/maintenance-plan",
-        "https://lexairconditioning.com/electrical-services/electrical-installation"
+        "https://lexairconditioning.com/plumbing-services/plumbing-repair",
+        "https://lexairconditioning.com/about-us/reviews",
+        "https://lexairconditioning.com/white-glove-rewards",
+        "https://lexairconditioning.com/hvac-services/air-conditioning-installation"
       ]
     },
     {
@@ -532,8 +532,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/offers",
       "inbound_links": [
-        "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/offers"
+        "https://lexairconditioning.com/offers",
+        "https://lexairconditioning.com/"
       ]
     },
     {
@@ -593,9 +593,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/white-glove-rewards",
       "inbound_links": [
-        "https://lexairconditioning.com/",
         "https://lexairconditioning.com/about-us/maintenance-plan",
-        "https://lexairconditioning.com/white-glove-rewards"
+        "https://lexairconditioning.com/white-glove-rewards",
+        "https://lexairconditioning.com/"
       ]
     },
     {
@@ -623,16 +623,16 @@
       "was_redirected": false,
       "redirected_to": null,
       "inbound_links": [
+        "https://lexairconditioning.com/white-glove-rewards-terms-conditions",
+        "https://lexairconditioning.com/your-privacy-choices",
+        "https://lexairconditioning.com/hvac-services/air-conditioning-maintenance",
         "https://lexairconditioning.com/hvac-services/heating-installation",
-        "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us/reviews",
-        "https://lexairconditioning.com/hvac-services/air-conditioning-installation",
-        "https://lexairconditioning.com/white-glove-rewards",
-        "https://lexairconditioning.com/offers",
-        "https://lexairconditioning.com/hvac-services",
-        "https://lexairconditioning.com/privacy-policy",
+        "https://lexairconditioning.com/terms-and-conditions",
         "https://lexairconditioning.com/about-us/maintenance-plan",
-        "https://lexairconditioning.com/electrical-services/electrical-installation"
+        "https://lexairconditioning.com/plumbing-services/plumbing-repair",
+        "https://lexairconditioning.com/about-us/reviews",
+        "https://lexairconditioning.com/white-glove-rewards",
+        "https://lexairconditioning.com/hvac-services/air-conditioning-installation"
       ]
     },
     {
@@ -660,16 +660,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/your-privacy-choices",
       "inbound_links": [
+        "https://lexairconditioning.com/white-glove-rewards-terms-conditions",
+        "https://lexairconditioning.com/your-privacy-choices",
+        "https://lexairconditioning.com/hvac-services/air-conditioning-maintenance",
         "https://lexairconditioning.com/hvac-services/heating-installation",
-        "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/about-us/reviews",
-        "https://lexairconditioning.com/hvac-services/air-conditioning-installation",
-        "https://lexairconditioning.com/white-glove-rewards",
-        "https://lexairconditioning.com/offers",
-        "https://lexairconditioning.com/hvac-services",
-        "https://lexairconditioning.com/privacy-policy",
+        "https://lexairconditioning.com/terms-and-conditions",
         "https://lexairconditioning.com/about-us/maintenance-plan",
-        "https://lexairconditioning.com/electrical-services/electrical-installation"
+        "https://lexairconditioning.com/plumbing-services/plumbing-repair",
+        "https://lexairconditioning.com/about-us/reviews",
+        "https://lexairconditioning.com/white-glove-rewards",
+        "https://lexairconditioning.com/hvac-services/air-conditioning-installation"
       ]
     },
     {
@@ -701,16 +701,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/white-glove-rewards",
       "inbound_links": [
-        "https://lexairconditioning.com/hvac-services/heating-installation",
-        "https://lexairconditioning.com/electrical-services/electrical-installation",
         "https://lexairconditioning.com/plumbing-services/plumbing-inspection",
         "https://lexairconditioning.com/hvac-services/air-conditioning-repair",
-        "https://lexairconditioning.com/hvac-services/air-conditioning-installation",
-        "https://lexairconditioning.com/hvac-services/heating-repair",
+        "https://lexairconditioning.com/electrical-services/electrical-installation",
+        "https://lexairconditioning.com/plumbing-services/plumbing-repair",
         "https://lexairconditioning.com/electrical-services/electrical-repair",
-        "https://lexairconditioning.com/hvac-services/heating-maintenance",
+        "https://lexairconditioning.com/hvac-services/heating-installation",
+        "https://lexairconditioning.com/hvac-services/heating-repair",
+        "https://lexairconditioning.com/hvac-services/air-conditioning-maintenance",
         "https://lexairconditioning.com/plumbing-services/plumbing-installation",
-        "https://lexairconditioning.com/plumbing-services/plumbing-repair"
+        "https://lexairconditioning.com/hvac-services/heating-maintenance"
       ]
     },
     {
