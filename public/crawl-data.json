@@ -1,9 +1,9 @@
 {
   "summary": {
-    "crawled_at": "2026-09-30T14:47:09.053185+00:00",
+    "crawled_at": "2026-10-01T15:17:11.653813+00:00",
     "base_url": "https://lexairconditioning.com",
     "total_pages": 26,
-    "crawl_duration_seconds": 35.3,
+    "crawl_duration_seconds": 35.9,
     "max_depth": 3,
     "issue_counts": {
       "no_schema": 14,
@@ -454,16 +454,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/terms-and-conditions",
       "inbound_links": [
-        "https://lexairconditioning.com/seer-savings-calculator",
-        "https://lexairconditioning.com/hvac-services/heating-repair",
+        "https://lexairconditioning.com/about-us/maintenance-plan",
+        "https://lexairconditioning.com/hvac-services/air-conditioning-repair",
+        "https://lexairconditioning.com/plumbing-services/plumbing-installation",
+        "https://lexairconditioning.com/plumbing-services",
+        "https://lexairconditioning.com/offers",
         "https://lexairconditioning.com/about-us/reviews",
-        "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/your-privacy-choices",
-        "https://lexairconditioning.com/hvac-services",
+        "https://lexairconditioning.com/electrical-services",
         "https://lexairconditioning.com/privacy-policy",
-        "https://lexairconditioning.com/white-glove-rewards",
-        "https://lexairconditioning.com/electrical-services/electrical-repair",
-        "https://lexairconditioning.com/terms-and-conditions"
+        "https://lexairconditioning.com/white-glove-rewards-terms-conditions",
+        "https://lexairconditioning.com/contact-us"
       ]
     },
     {
@@ -495,16 +495,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/privacy-policy",
       "inbound_links": [
-        "https://lexairconditioning.com/seer-savings-calculator",
-        "https://lexairconditioning.com/hvac-services/heating-repair",
+        "https://lexairconditioning.com/about-us/maintenance-plan",
+        "https://lexairconditioning.com/hvac-services/air-conditioning-repair",
+        "https://lexairconditioning.com/plumbing-services/plumbing-installation",
+        "https://lexairconditioning.com/plumbing-services",
+        "https://lexairconditioning.com/offers",
         "https://lexairconditioning.com/about-us/reviews",
-        "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/your-privacy-choices",
-        "https://lexairconditioning.com/hvac-services",
+        "https://lexairconditioning.com/electrical-services",
         "https://lexairconditioning.com/privacy-policy",
-        "https://lexairconditioning.com/white-glove-rewards",
-        "https://lexairconditioning.com/electrical-services/electrical-repair",
-        "https://lexairconditioning.com/terms-and-conditions"
+        "https://lexairconditioning.com/white-glove-rewards-terms-conditions",
+        "https://lexairconditioning.com/contact-us"
       ]
     },
     {
@@ -532,8 +532,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/offers",
       "inbound_links": [
-        "https://lexairconditioning.com/offers",
-        "https://lexairconditioning.com/"
+        "https://lexairconditioning.com/",
+        "https://lexairconditioning.com/offers"
       ]
     },
     {
@@ -593,9 +593,9 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/white-glove-rewards",
       "inbound_links": [
-        "https://lexairconditioning.com/white-glove-rewards",
+        "https://lexairconditioning.com/",
         "https://lexairconditioning.com/about-us/maintenance-plan",
-        "https://lexairconditioning.com/"
+        "https://lexairconditioning.com/white-glove-rewards"
       ]
     },
     {
@@ -623,16 +623,16 @@
       "was_redirected": false,
       "redirected_to": null,
       "inbound_links": [
-        "https://lexairconditioning.com/seer-savings-calculator",
-        "https://lexairconditioning.com/hvac-services/heating-repair",
+        "https://lexairconditioning.com/about-us/maintenance-plan",
+        "https://lexairconditioning.com/hvac-services/air-conditioning-repair",
+        "https://lexairconditioning.com/plumbing-services/plumbing-installation",
+        "https://lexairconditioning.com/plumbing-services",
+        "https://lexairconditioning.com/offers",
         "https://lexairconditioning.com/about-us/reviews",
-        "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/your-privacy-choices",
-        "https://lexairconditioning.com/hvac-services",
+        "https://lexairconditioning.com/electrical-services",
         "https://lexairconditioning.com/privacy-policy",
-        "https://lexairconditioning.com/white-glove-rewards",
-        "https://lexairconditioning.com/electrical-services/electrical-repair",
-        "https://lexairconditioning.com/terms-and-conditions"
+        "https://lexairconditioning.com/white-glove-rewards-terms-conditions",
+        "https://lexairconditioning.com/contact-us"
       ]
     },
     {
@@ -660,16 +660,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/your-privacy-choices",
       "inbound_links": [
-        "https://lexairconditioning.com/seer-savings-calculator",
-        "https://lexairconditioning.com/hvac-services/heating-repair",
+        "https://lexairconditioning.com/about-us/maintenance-plan",
+        "https://lexairconditioning.com/hvac-services/air-conditioning-repair",
+        "https://lexairconditioning.com/plumbing-services/plumbing-installation",
+        "https://lexairconditioning.com/plumbing-services",
+        "https://lexairconditioning.com/offers",
         "https://lexairconditioning.com/about-us/reviews",
-        "https://lexairconditioning.com/",
-        "https://lexairconditioning.com/your-privacy-choices",
-        "https://lexairconditioning.com/hvac-services",
+        "https://lexairconditioning.com/electrical-services",
         "https://lexairconditioning.com/privacy-policy",
-        "https://lexairconditioning.com/white-glove-rewards",
-        "https://lexairconditioning.com/electrical-services/electrical-repair",
-        "https://lexairconditioning.com/terms-and-conditions"
+        "https://lexairconditioning.com/white-glove-rewards-terms-conditions",
+        "https://lexairconditioning.com/contact-us"
       ]
     },
     {
@@ -701,16 +701,16 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/white-glove-rewards",
       "inbound_links": [
-        "https://lexairconditioning.com/electrical-services/electrical-installation",
-        "https://lexairconditioning.com/hvac-services/air-conditioning-installation",
-        "https://lexairconditioning.com/plumbing-services/plumbing-installation",
+        "https://lexairconditioning.com/hvac-services/air-conditioning-repair",
         "https://lexairconditioning.com/plumbing-services/plumbing-repair",
-        "https://lexairconditioning.com/hvac-services/heating-repair",
+        "https://lexairconditioning.com/plumbing-services/plumbing-installation",
+        "https://lexairconditioning.com/hvac-services/air-conditioning-maintenance",
+        "https://lexairconditioning.com/hvac-services/heating-maintenance",
         "https://lexairconditioning.com/hvac-services/heating-installation",
         "https://lexairconditioning.com/electrical-services/electrical-repair",
+        "https://lexairconditioning.com/hvac-services/air-conditioning-installation",
         "https://lexairconditioning.com/plumbing-services/plumbing-inspection",
-        "https://lexairconditioning.com/hvac-services/air-conditioning-maintenance",
-        "https://lexairconditioning.com/hvac-services/air-conditioning-repair"
+        "https://lexairconditioning.com/electrical-services/electrical-installation"
       ]
     },
     {
@@ -766,8 +766,8 @@
       "was_redirected": true,
       "redirected_to": "https://www.lexairconditioning.com/white-glove-rewards-terms-conditions",
       "inbound_links": [
-        "https://lexairconditioning.com/white-glove-rewards",
-        "https://lexairconditioning.com/about-us/maintenance-plan"
+        "https://lexairconditioning.com/about-us/maintenance-plan",
+        "https://lexairconditioning.com/white-glove-rewards"
       ]
     }
   ]
